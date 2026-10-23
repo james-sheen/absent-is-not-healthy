@@ -2,7 +2,7 @@
 title: "Absent is not healthy"
 subtitle: "Checking what a BMC declares against what it reports"
 author: "James Sheen · The Arbiter Project"
-date: "Version 1.0, 2026-10-28 · DOI 10.5281/zenodo.23585862"
+date: "Version 1.0, 2026-10-23 · DOI 10.5281/zenodo.23585862"
 lang: en
 header-includes: |
   ```{=typst}
