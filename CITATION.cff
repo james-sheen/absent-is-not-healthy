@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: If you cite this report, please cite it as below.
+title: "Absent is not healthy: checking what a BMC declares against what it reports"
+authors:
+  - family-names: "Sheen"
+    given-names: "James"
+    affiliation: The Arbiter Project
+version: "1.0"
+date-released: "2026-10-28"
+license: CC-BY-4.0
+doi: "10.5281/zenodo.23585862"
+repository-code: "https://github.com/james-sheen/absent-is-not-healthy"
+preferred-citation:
+  type: report
+  title: "Absent is not healthy: checking what a BMC declares against what it reports"
+  authors:
+    - family-names: "Sheen"
+      given-names: "James"
+      affiliation: The Arbiter Project
+  institution:
+    name: The Arbiter Project
+  year: 2026
+  version: "1.0"
+  url: "https://github.com/james-sheen/absent-is-not-healthy"
+  doi: "10.5281/zenodo.23585862"

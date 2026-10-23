@@ -1,0 +1,146 @@
+# The FAA case study's model: the FAA's air traffic control facilities as its own controller
+# workforce plans count them, against the staffing targets the same plans publish. Real,
+# public-domain data, each source named in the case's story; the captures are read off the plans,
+# never planted. Everything below that is not read off a source says so.
+#
+# Built only from what the format already has -- typed units, causal channels, BOUNDEDNESS on a bound
+# read off each entity, two levers, an objective, a case criterion. No engine change.
+domain:
+  id: faa-atc-case-study
+  name: FAA air traffic controller staffing against its own targets (case study, public data)
+  description: >-
+    The FAA's 313 air traffic control facilities and the FAA as a whole, at the end of the fiscal
+    years 2023, 2024 and 2025: certified professional controllers (CPC) on board against each
+    facility's staffing target, as the FAA's controller workforce plans print them, and the FAA's
+    hiring against its yearly hiring target.
+
+  # A Unit is anything with controllers on board: a facility, or the FAA as a whole. Facilities are
+  # typed as the 2026-2028 plan lists them; the indicators are the Unit's.
+  entity_types:
+    - Unit
+    - {name: Agency, extends: Unit}
+    - {name: Center, extends: Unit}
+    - {name: Tracon, extends: Unit}
+    - {name: Tower, extends: Unit}
+    - {name: TowerTracon, extends: Unit}
+    - {name: CombinedFacility, extends: Unit}
+    - Program
+  relationship_types: [belongs_to, feeds]
+
+  causal:
+    # Below a target is a warning and below the placement threshold critical; a facility walk
+    # should read the FAA's warning as evidence too.
+    evidence_severity: [warning, low, medium, high, critical]
+    max_hops: 2
+
+  # WHICH WAY A SHORTAGE TRAVELS. No strengths and no delays: no source gives a measured fraction,
+  # and the plans give the pipeline as a range of years (two to three, faa-cwp-fy25; GAO-26-107320:
+  # two to six), so none is declared.
+  relationship_rules:
+    # The FAA staffs every facility: a shortage across the agency reaches each one ('new controllers
+    # are typically hired two to three years in advance of expected attrition', faa-cwp-2026-2028,
+    # appendix). The edge is the facility's, so the cause is its target. Rules name the types they
+    # join and are not inherited, so each facility type has its own.
+    - {type: belongs_to, source_type: Center, target_type: Agency, cause: target}
+    - {type: belongs_to, source_type: Tracon, target_type: Agency, cause: target}
+    - {type: belongs_to, source_type: Tower, target_type: Agency, cause: target}
+    - {type: belongs_to, source_type: TowerTracon, target_type: Agency, cause: target}
+    - {type: belongs_to, source_type: CombinedFacility, target_type: Agency, cause: target}
+    # Hiring feeds the agency's workforce: GAO-26-107320 names disruptions to hiring among the causes
+    # of the shortage.
+    - {type: feeds, source_type: Program, target_type: Agency, edge_direction: causal}
+
+  # THE TWO LEVERS the FAA used. Neither declares what it does to a facility, because no source
+  # gives that, so a plan can say what each lever changes at the FAA and nothing below it.
+  action_templates:
+    # Hiring. A hire is a trainee at the Academy or a developmental for two years and more before it
+    # is a CPC; nothing here judges trainees, so within a plan's horizon hiring changes no finding.
+    # 2,000 is FY 2025's hiring target (faa-cwp-2026-2028, FY 2025 recap).
+    - name: hire_controllers
+      applies_to: Agency
+      parameters_schema:
+        trainees:
+          type: number
+          entity_property: developmental
+          candidates: [2000]
+      effect: add
+      settle_s: 0
+      source: FY 2025's hiring target (faa-cwp-2026-2028)
+    # The 2026-2028 plan's staffing model: a controller availability factor of 1.87 where the
+    # 2025 plan used 2.14, which sets the FAA's total staffing target at 12,563 (faa-cwp-2026-2028,
+    # 'New staffing model'). It moves the line, not the people.
+    - name: adopt_staffing_model
+      applies_to: Agency
+      parameters_schema:
+        target:
+          type: number
+          entity_property: target
+          candidates: [12563]
+      effect: set
+      settle_s: 0
+      source: the 2026-2028 plan's staffing model (faa-cwp-2026-2028)
+
+  # WHAT A PLAN PURSUES: the fewest findings afterwards, one lever at a time.
+  planning:
+    objective: expected_findings
+    max_depth: 1
+
+  # WHEN A CASE CLOSES. A case is a unit below the placement threshold -- the problem the DOT OIG
+  # counted (20 of 26 critical facilities below it, AV2023035) -- and one year at or above it closes
+  # the case: the plans come once a year.
+  cases:
+    severity: critical
+    consecutive_checks: 1
+
+  gaps:
+    min_cycles: 3
+
+  indicators:
+
+    Unit:
+      # THE PROBLEM: certified controllers on board against the unit's own staffing target. Two lines,
+      # both published, both read off the unit at each check:
+      # - its target ('CPCs count toward targets', faa-cwp-fy25 and faa-cwp-2026-2028; the 2023
+      #   report counted CPC-ITs as well, and this model counts CPCs alone in every year);
+      # - 85 percent of it, the threshold the FAA and NATCA set 'to prioritize placement of
+      #   controllers at air traffic control facilities' (DOT OIG AV2023035, p. 7).
+      # The engine reads a reading ON a floor as below it -- the floor names the edge of acceptable.
+      # Both lines here are 'below', strictly, and counts are whole people, so each floor is the most
+      # controllers a unit can have and still be below its line: one short of the target, and the
+      # largest whole number under 85 percent of it (17/20 of the target, less a person, floored).
+      # Judged against this year's lines alone: three yearly readings are no trend, and a one-day
+      # window keeps BOUNDEDNESS from projecting one.
+      - name: cpc
+        type: NUMERIC
+        axioms: [BOUNDEDNESS]
+        window: 1d
+        lower_warning: {from_property: short_of_target}
+        lower_critical: {from_property: short_of_placement_line}
+      - name: short_of_target
+        derived: "target - 1"
+        axioms: []
+      - name: short_of_placement_line
+        derived: "(17 * target - 1) // 20"
+        axioms: []
+      - {name: target, type: NUMERIC, axioms: []}
+      # Recorded, never judged: who else is on board, and the FAA's own figures beside them.
+      - {name: cpc_it, type: NUMERIC, axioms: []}
+      - {name: developmental, type: NUMERIC, axioms: []}
+      - {name: on_board, type: NUMERIC, axioms: []}
+      - {name: standards_target, type: NUMERIC, axioms: []}
+      - {name: cpc_attrition_forecast_next_fy, type: NUMERIC, axioms: []}
+      - {name: critical, type: NUMERIC, axioms: []}
+      - {name: academy, type: NUMERIC, axioms: []}
+
+    Program:
+      # The year's hires against the year's hiring target, both from the plan that reports them.
+      # Below the target, strictly, is a shortfall: one short of it is the floor, as above.
+      - name: hires
+        type: NUMERIC
+        axioms: [BOUNDEDNESS]
+        window: 1d
+        lower_warning: {from_property: hires_short_of_target}
+      - name: hires_short_of_target
+        derived: "hiring_target - 1"
+        axioms: []
+      - {name: hiring_target, type: NUMERIC, axioms: []}

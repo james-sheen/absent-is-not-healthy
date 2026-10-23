@@ -1,0 +1,5982 @@
+{
+ "captured_at": "2024-09-21T00:00:00Z",
+ "source": "faa-cwp-fy25",
+ "units": [
+  {
+   "name": "a11",
+   "type": "Tracon",
+   "label": "Anchorage TRACON",
+   "values": {
+    "target": 24,
+    "cpc": 17,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "a80",
+   "type": "Tracon",
+   "label": "Atlanta TRACON",
+   "values": {
+    "target": 110,
+    "cpc": 74,
+    "cpc_it": 18,
+    "developmental": 0,
+    "on_board": 92,
+    "cpc_attrition_forecast_next_fy": 5,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "a90",
+   "type": "Tracon",
+   "label": "Boston TRACON",
+   "values": {
+    "target": 79,
+    "cpc": 57,
+    "cpc_it": 9,
+    "developmental": 0,
+    "on_board": 66,
+    "cpc_attrition_forecast_next_fy": 5,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "abe",
+   "type": "TowerTracon",
+   "label": "Allentown Tower",
+   "values": {
+    "target": 37,
+    "cpc": 24,
+    "cpc_it": 1,
+    "developmental": 7,
+    "on_board": 32,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "abi",
+   "type": "TowerTracon",
+   "label": "Abilene Tower",
+   "values": {
+    "target": 20,
+    "cpc": 17,
+    "cpc_it": 0,
+    "developmental": 4,
+    "on_board": 21,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "abq",
+   "type": "TowerTracon",
+   "label": "Albuquerque Tower",
+   "values": {
+    "target": 36,
+    "cpc": 22,
+    "cpc_it": 4,
+    "developmental": 1,
+    "on_board": 27,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ack",
+   "type": "Tower",
+   "label": "Nantucket Tower",
+   "values": {
+    "target": 14,
+    "cpc": 9,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 11,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "act",
+   "type": "TowerTracon",
+   "label": "Waco Tower",
+   "values": {
+    "target": 26,
+    "cpc": 14,
+    "cpc_it": 1,
+    "developmental": 10,
+    "on_board": 25,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "acy",
+   "type": "TowerTracon",
+   "label": "Atlantic City Tower",
+   "values": {
+    "target": 26,
+    "cpc": 19,
+    "cpc_it": 1,
+    "developmental": 9,
+    "on_board": 29,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ads",
+   "type": "Tower",
+   "label": "Addison Tower",
+   "values": {
+    "target": 16,
+    "cpc": 9,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 14,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "adw",
+   "type": "Tower",
+   "label": "Andrews Tower",
+   "values": {
+    "target": 22,
+    "cpc": 13,
+    "cpc_it": 2,
+    "developmental": 4,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "afw",
+   "type": "Tower",
+   "label": "Alliance Tower",
+   "values": {
+    "target": 15,
+    "cpc": 13,
+    "cpc_it": 1,
+    "developmental": 5,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "agc",
+   "type": "Tower",
+   "label": "Allegheny Tower",
+   "values": {
+    "target": 21,
+    "cpc": 11,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ags",
+   "type": "TowerTracon",
+   "label": "Augusta Tower",
+   "values": {
+    "target": 21,
+    "cpc": 13,
+    "cpc_it": 1,
+    "developmental": 7,
+    "on_board": 21,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "alb",
+   "type": "TowerTracon",
+   "label": "Albany Tower",
+   "values": {
+    "target": 30,
+    "cpc": 22,
+    "cpc_it": 0,
+    "developmental": 11,
+    "on_board": 33,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "alo",
+   "type": "Tower",
+   "label": "Waterloo Tower",
+   "values": {
+    "target": 23,
+    "cpc": 11,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 14,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ama",
+   "type": "TowerTracon",
+   "label": "Amarillo Tower",
+   "values": {
+    "target": 24,
+    "cpc": 19,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 24,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "anc",
+   "type": "Tower",
+   "label": "Anchorage Tower",
+   "values": {
+    "target": 28,
+    "cpc": 23,
+    "cpc_it": 0,
+    "developmental": 0,
+    "on_board": 23,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "apa",
+   "type": "Tower",
+   "label": "Centennial Tower",
+   "values": {
+    "target": 26,
+    "cpc": 17,
+    "cpc_it": 0,
+    "developmental": 1,
+    "on_board": 18,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "apc",
+   "type": "Tower",
+   "label": "Napa Tower",
+   "values": {
+    "target": 12,
+    "cpc": 8,
+    "cpc_it": 0,
+    "developmental": 4,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "arb",
+   "type": "Tower",
+   "label": "Ann Arbor Tower",
+   "values": {
+    "target": 12,
+    "cpc": 9,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "arr",
+   "type": "Tower",
+   "label": "Aurora Tower",
+   "values": {
+    "target": 12,
+    "cpc": 9,
+    "cpc_it": 1,
+    "developmental": 4,
+    "on_board": 14,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ase",
+   "type": "TowerTracon",
+   "label": "Aspen TRACAB",
+   "values": {
+    "target": 21,
+    "cpc": 12,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "atl",
+   "type": "Tower",
+   "label": "Atlanta Tower",
+   "values": {
+    "target": 52,
+    "cpc": 37,
+    "cpc_it": 9,
+    "developmental": 0,
+    "on_board": 46,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "aus",
+   "type": "TowerTracon",
+   "label": "Austin Tower",
+   "values": {
+    "target": 60,
+    "cpc": 33,
+    "cpc_it": 8,
+    "developmental": 1,
+    "on_board": 42,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "avl",
+   "type": "TowerTracon",
+   "label": "Asheville Tower",
+   "values": {
+    "target": 20,
+    "cpc": 15,
+    "cpc_it": 1,
+    "developmental": 4,
+    "on_board": 20,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "avp",
+   "type": "TowerTracon",
+   "label": "Wilkes-Barre Tower",
+   "values": {
+    "target": 26,
+    "cpc": 15,
+    "cpc_it": 1,
+    "developmental": 8,
+    "on_board": 24,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "azo",
+   "type": "TowerTracon",
+   "label": "Kalamazoo Tower",
+   "values": {
+    "target": 60,
+    "cpc": 44,
+    "cpc_it": 3,
+    "developmental": 0,
+    "on_board": 47,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bdl",
+   "type": "Tower",
+   "label": "Bradley Tower",
+   "values": {
+    "target": 21,
+    "cpc": 15,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 18,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bed",
+   "type": "Tower",
+   "label": "Hanscom Tower",
+   "values": {
+    "target": 19,
+    "cpc": 15,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 18,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bfi",
+   "type": "Tower",
+   "label": "Boeing Tower",
+   "values": {
+    "target": 20,
+    "cpc": 17,
+    "cpc_it": 1,
+    "developmental": 3,
+    "on_board": 21,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bfl",
+   "type": "TowerTracon",
+   "label": "Bakersfield Tower",
+   "values": {
+    "target": 26,
+    "cpc": 18,
+    "cpc_it": 1,
+    "developmental": 1,
+    "on_board": 20,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bgm",
+   "type": "TowerTracon",
+   "label": "Binghamton Tower",
+   "values": {
+    "target": 21,
+    "cpc": 13,
+    "cpc_it": 0,
+    "developmental": 1,
+    "on_board": 14,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bgr",
+   "type": "TowerTracon",
+   "label": "Bangor Tower",
+   "values": {
+    "target": 31,
+    "cpc": 17,
+    "cpc_it": 1,
+    "developmental": 8,
+    "on_board": 26,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bhm",
+   "type": "TowerTracon",
+   "label": "Birmingham Tower",
+   "values": {
+    "target": 39,
+    "cpc": 25,
+    "cpc_it": 2,
+    "developmental": 2,
+    "on_board": 29,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bil",
+   "type": "TowerTracon",
+   "label": "Billings Tower",
+   "values": {
+    "target": 24,
+    "cpc": 18,
+    "cpc_it": 0,
+    "developmental": 4,
+    "on_board": 22,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bis",
+   "type": "TowerTracon",
+   "label": "Bismarck TRACAB",
+   "values": {
+    "target": 18,
+    "cpc": 10,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bjc",
+   "type": "Tower",
+   "label": "Broomfield Tower",
+   "values": {
+    "target": 16,
+    "cpc": 12,
+    "cpc_it": 2,
+    "developmental": 0,
+    "on_board": 14,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bna",
+   "type": "TowerTracon",
+   "label": "Nashville Tower",
+   "values": {
+    "target": 41,
+    "cpc": 30,
+    "cpc_it": 7,
+    "developmental": 1,
+    "on_board": 38,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "boi",
+   "type": "TowerTracon",
+   "label": "Boise Tower",
+   "values": {
+    "target": 42,
+    "cpc": 27,
+    "cpc_it": 3,
+    "developmental": 0,
+    "on_board": 30,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bos",
+   "type": "Tower",
+   "label": "Boston Tower",
+   "values": {
+    "target": 33,
+    "cpc": 24,
+    "cpc_it": 8,
+    "developmental": 1,
+    "on_board": 33,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bpt",
+   "type": "Tower",
+   "label": "Beaumont Tower",
+   "values": {
+    "target": 14,
+    "cpc": 11,
+    "cpc_it": 0,
+    "developmental": 1,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "btr",
+   "type": "TowerTracon",
+   "label": "Baton Rouge Tower",
+   "values": {
+    "target": 24,
+    "cpc": 16,
+    "cpc_it": 1,
+    "developmental": 6,
+    "on_board": 23,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "btv",
+   "type": "TowerTracon",
+   "label": "Burlington Tower",
+   "values": {
+    "target": 24,
+    "cpc": 18,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 23,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "buf",
+   "type": "TowerTracon",
+   "label": "Buffalo Tower",
+   "values": {
+    "target": 41,
+    "cpc": 28,
+    "cpc_it": 1,
+    "developmental": 5,
+    "on_board": 34,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bur",
+   "type": "Tower",
+   "label": "Burbank Tower",
+   "values": {
+    "target": 24,
+    "cpc": 19,
+    "cpc_it": 1,
+    "developmental": 5,
+    "on_board": 25,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "bwi",
+   "type": "Tower",
+   "label": "Baltimore Tower",
+   "values": {
+    "target": 22,
+    "cpc": 17,
+    "cpc_it": 5,
+    "developmental": 1,
+    "on_board": 23,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "c90",
+   "type": "Tracon",
+   "label": "Chicago TRACON",
+   "values": {
+    "target": 102,
+    "cpc": 73,
+    "cpc_it": 35,
+    "developmental": 0,
+    "on_board": 108,
+    "cpc_attrition_forecast_next_fy": 7,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "cae",
+   "type": "TowerTracon",
+   "label": "Columbia Tower",
+   "values": {
+    "target": 28,
+    "cpc": 16,
+    "cpc_it": 0,
+    "developmental": 8,
+    "on_board": 24,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "cak",
+   "type": "Tower",
+   "label": "Akron-Canton Tower",
+   "values": {
+    "target": 15,
+    "cpc": 15,
+    "cpc_it": 1,
+    "developmental": 2,
+    "on_board": 18,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ccr",
+   "type": "Tower",
+   "label": "Concord Tower",
+   "values": {
+    "target": 14,
+    "cpc": 10,
+    "cpc_it": 0,
+    "developmental": 1,
+    "on_board": 11,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "cdw",
+   "type": "Tower",
+   "label": "Caldwell Tower",
+   "values": {
+    "target": 12,
+    "cpc": 8,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 11,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "cha",
+   "type": "TowerTracon",
+   "label": "Chattanooga Tower",
+   "values": {
+    "target": 24,
+    "cpc": 18,
+    "cpc_it": 1,
+    "developmental": 3,
+    "on_board": 22,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "chs",
+   "type": "TowerTracon",
+   "label": "Charleston Tower",
+   "values": {
+    "target": 29,
+    "cpc": 17,
+    "cpc_it": 0,
+    "developmental": 6,
+    "on_board": 23,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "cid",
+   "type": "TowerTracon",
+   "label": "Cedar Rapids Tower",
+   "values": {
+    "target": 23,
+    "cpc": 12,
+    "cpc_it": 0,
+    "developmental": 8,
+    "on_board": 20,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ckb",
+   "type": "TowerTracon",
+   "label": "Clarksburg Tower",
+   "values": {
+    "target": 24,
+    "cpc": 15,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 18,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "cle",
+   "type": "TowerTracon",
+   "label": "Cleveland Tower",
+   "values": {
+    "target": 53,
+    "cpc": 45,
+    "cpc_it": 8,
+    "developmental": 2,
+    "on_board": 55,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "clt",
+   "type": "TowerTracon",
+   "label": "Charlotte Tower",
+   "values": {
+    "target": 90,
+    "cpc": 77,
+    "cpc_it": 17,
+    "developmental": 0,
+    "on_board": 94,
+    "cpc_attrition_forecast_next_fy": 6,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "cma",
+   "type": "Tower",
+   "label": "Camarillo Tower",
+   "values": {
+    "target": 14,
+    "cpc": 10,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "cmh",
+   "type": "TowerTracon",
+   "label": "Columbus Tower",
+   "values": {
+    "target": 55,
+    "cpc": 38,
+    "cpc_it": 6,
+    "developmental": 4,
+    "on_board": 48,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "cmi",
+   "type": "TowerTracon",
+   "label": "Champaign Tower",
+   "values": {
+    "target": 21,
+    "cpc": 14,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "cno",
+   "type": "Tower",
+   "label": "Chino Tower",
+   "values": {
+    "target": 15,
+    "cpc": 10,
+    "cpc_it": 1,
+    "developmental": 1,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "cos",
+   "type": "TowerTracon",
+   "label": "Colorado Springs Tower",
+   "values": {
+    "target": 27,
+    "cpc": 17,
+    "cpc_it": 4,
+    "developmental": 2,
+    "on_board": 23,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "cpr",
+   "type": "TowerTracon",
+   "label": "Casper Tower",
+   "values": {
+    "target": 18,
+    "cpc": 10,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 13,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "cps",
+   "type": "Tower",
+   "label": "St. Louis Downtown Tower",
+   "values": {
+    "target": 14,
+    "cpc": 8,
+    "cpc_it": 1,
+    "developmental": 3,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "crp",
+   "type": "TowerTracon",
+   "label": "Corpus Christi Tower",
+   "values": {
+    "target": 41,
+    "cpc": 29,
+    "cpc_it": 3,
+    "developmental": 2,
+    "on_board": 34,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "crq",
+   "type": "Tower",
+   "label": "Palomar Tower",
+   "values": {
+    "target": 14,
+    "cpc": 9,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 11,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "crw",
+   "type": "TowerTracon",
+   "label": "Charleston Tower",
+   "values": {
+    "target": 31,
+    "cpc": 17,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 22,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "csg",
+   "type": "Tower",
+   "label": "Columbus Tower",
+   "values": {
+    "target": 12,
+    "cpc": 6,
+    "cpc_it": 1,
+    "developmental": 0,
+    "on_board": 7,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "cvg",
+   "type": "TowerTracon",
+   "label": "Cincinnati Tower",
+   "values": {
+    "target": 48,
+    "cpc": 38,
+    "cpc_it": 1,
+    "developmental": 0,
+    "on_board": 39,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "d01",
+   "type": "Tracon",
+   "label": "Denver TRACON",
+   "values": {
+    "target": 93,
+    "cpc": 72,
+    "cpc_it": 8,
+    "developmental": 0,
+    "on_board": 80,
+    "cpc_attrition_forecast_next_fy": 5,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "d10",
+   "type": "Tracon",
+   "label": "Dallas-Fort Worth TRACON",
+   "values": {
+    "target": 111,
+    "cpc": 73,
+    "cpc_it": 20,
+    "developmental": 0,
+    "on_board": 93,
+    "cpc_attrition_forecast_next_fy": 5,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "d21",
+   "type": "Tracon",
+   "label": "Detroit TRACON",
+   "values": {
+    "target": 58,
+    "cpc": 50,
+    "cpc_it": 11,
+    "developmental": 1,
+    "on_board": 62,
+    "cpc_attrition_forecast_next_fy": 5,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "dab",
+   "type": "TowerTracon",
+   "label": "Daytona Beach Tower",
+   "values": {
+    "target": 60,
+    "cpc": 45,
+    "cpc_it": 12,
+    "developmental": 0,
+    "on_board": 57,
+    "cpc_attrition_forecast_next_fy": 3,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "dal",
+   "type": "Tower",
+   "label": "Dallas Love Tower",
+   "values": {
+    "target": 26,
+    "cpc": 23,
+    "cpc_it": 2,
+    "developmental": 1,
+    "on_board": 26,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "day",
+   "type": "Tower",
+   "label": "Dayton Tower",
+   "values": {
+    "target": 16,
+    "cpc": 13,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "dca",
+   "type": "Tower",
+   "label": "Washington National Tower",
+   "values": {
+    "target": 30,
+    "cpc": 23,
+    "cpc_it": 4,
+    "developmental": 1,
+    "on_board": 28,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "den",
+   "type": "Tower",
+   "label": "Denver Tower",
+   "values": {
+    "target": 41,
+    "cpc": 32,
+    "cpc_it": 6,
+    "developmental": 0,
+    "on_board": 38,
+    "cpc_attrition_forecast_next_fy": 3,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "dfw",
+   "type": "Tower",
+   "label": "Dallas-Fort Worth Tower",
+   "values": {
+    "target": 58,
+    "cpc": 43,
+    "cpc_it": 13,
+    "developmental": 0,
+    "on_board": 56,
+    "cpc_attrition_forecast_next_fy": 3,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "dlh",
+   "type": "TowerTracon",
+   "label": "Duluth Tower",
+   "values": {
+    "target": 25,
+    "cpc": 16,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 21,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "dpa",
+   "type": "Tower",
+   "label": "Dupage Tower",
+   "values": {
+    "target": 19,
+    "cpc": 16,
+    "cpc_it": 1,
+    "developmental": 0,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "dsm",
+   "type": "TowerTracon",
+   "label": "Des Moines Tower",
+   "values": {
+    "target": 28,
+    "cpc": 16,
+    "cpc_it": 0,
+    "developmental": 7,
+    "on_board": 23,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "dtw",
+   "type": "Tower",
+   "label": "Detroit Tower",
+   "values": {
+    "target": 33,
+    "cpc": 28,
+    "cpc_it": 5,
+    "developmental": 0,
+    "on_board": 33,
+    "cpc_attrition_forecast_next_fy": 3,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "dvt",
+   "type": "Tower",
+   "label": "Deer Valley Tower",
+   "values": {
+    "target": 22,
+    "cpc": 13,
+    "cpc_it": 3,
+    "developmental": 0,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "dwh",
+   "type": "Tower",
+   "label": "Houston Hooks Tower",
+   "values": {
+    "target": 19,
+    "cpc": 10,
+    "cpc_it": 1,
+    "developmental": 5,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "elm",
+   "type": "TowerTracon",
+   "label": "Elmira TRACAB",
+   "values": {
+    "target": 13,
+    "cpc": 11,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 14,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "elp",
+   "type": "TowerTracon",
+   "label": "El Paso Tower",
+   "values": {
+    "target": 35,
+    "cpc": 21,
+    "cpc_it": 1,
+    "developmental": 6,
+    "on_board": 28,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "emt",
+   "type": "Tower",
+   "label": "El Monte Tower",
+   "values": {
+    "target": 12,
+    "cpc": 9,
+    "cpc_it": 3,
+    "developmental": 2,
+    "on_board": 14,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "eri",
+   "type": "Tower",
+   "label": "Erie Tower",
+   "values": {
+    "target": 12,
+    "cpc": 9,
+    "cpc_it": 1,
+    "developmental": 2,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "eug",
+   "type": "TowerTracon",
+   "label": "Eugene Tower",
+   "values": {
+    "target": 28,
+    "cpc": 14,
+    "cpc_it": 0,
+    "developmental": 9,
+    "on_board": 23,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "evv",
+   "type": "TowerTracon",
+   "label": "Evansville Tower",
+   "values": {
+    "target": 23,
+    "cpc": 12,
+    "cpc_it": 1,
+    "developmental": 7,
+    "on_board": 20,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ewr",
+   "type": "Tower",
+   "label": "Newark Tower",
+   "values": {
+    "target": 37,
+    "cpc": 26,
+    "cpc_it": 6,
+    "developmental": 0,
+    "on_board": 32,
+    "cpc_attrition_forecast_next_fy": 3,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "f11",
+   "type": "Tracon",
+   "label": "Central Florida TRACON",
+   "values": {
+    "target": 60,
+    "cpc": 39,
+    "cpc_it": 10,
+    "developmental": 0,
+    "on_board": 49,
+    "cpc_attrition_forecast_next_fy": 4,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "fai",
+   "type": "TowerTracon",
+   "label": "Fairbanks Tower",
+   "values": {
+    "target": 28,
+    "cpc": 16,
+    "cpc_it": 0,
+    "developmental": 6,
+    "on_board": 22,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "far",
+   "type": "TowerTracon",
+   "label": "Fargo Tower",
+   "values": {
+    "target": 26,
+    "cpc": 16,
+    "cpc_it": 0,
+    "developmental": 6,
+    "on_board": 22,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "fat",
+   "type": "TowerTracon",
+   "label": "Fresno Tower",
+   "values": {
+    "target": 30,
+    "cpc": 21,
+    "cpc_it": 0,
+    "developmental": 7,
+    "on_board": 28,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "fay",
+   "type": "TowerTracon",
+   "label": "Fayetteville Tower",
+   "values": {
+    "target": 28,
+    "cpc": 18,
+    "cpc_it": 0,
+    "developmental": 4,
+    "on_board": 22,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "fcm",
+   "type": "Tower",
+   "label": "Flying Cloud Tower",
+   "values": {
+    "target": 14,
+    "cpc": 10,
+    "cpc_it": 2,
+    "developmental": 2,
+    "on_board": 14,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ffz",
+   "type": "Tower",
+   "label": "Falcon Tower",
+   "values": {
+    "target": 18,
+    "cpc": 12,
+    "cpc_it": 1,
+    "developmental": 0,
+    "on_board": 13,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "fll",
+   "type": "Tower",
+   "label": "Fort Lauderdale Tower",
+   "values": {
+    "target": 26,
+    "cpc": 24,
+    "cpc_it": 3,
+    "developmental": 1,
+    "on_board": 28,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "flo",
+   "type": "TowerTracon",
+   "label": "Florence Tower",
+   "values": {
+    "target": 16,
+    "cpc": 11,
+    "cpc_it": 1,
+    "developmental": 4,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "fnt",
+   "type": "Tower",
+   "label": "Flint Tower",
+   "values": {
+    "target": 12,
+    "cpc": 8,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 10,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "fpr",
+   "type": "Tower",
+   "label": "St. Lucie Tower",
+   "values": {
+    "target": 14,
+    "cpc": 11,
+    "cpc_it": 2,
+    "developmental": 1,
+    "on_board": 14,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "frg",
+   "type": "Tower",
+   "label": "Farmingdale Tower",
+   "values": {
+    "target": 13,
+    "cpc": 10,
+    "cpc_it": 4,
+    "developmental": 3,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "fsd",
+   "type": "TowerTracon",
+   "label": "Sioux Falls Tower",
+   "values": {
+    "target": 22,
+    "cpc": 15,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 18,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "fsm",
+   "type": "TowerTracon",
+   "label": "Fort Smith Tower",
+   "values": {
+    "target": 30,
+    "cpc": 26,
+    "cpc_it": 0,
+    "developmental": 7,
+    "on_board": 33,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ftw",
+   "type": "Tower",
+   "label": "Meacham Tower",
+   "values": {
+    "target": 23,
+    "cpc": 15,
+    "cpc_it": 3,
+    "developmental": 1,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "fwa",
+   "type": "TowerTracon",
+   "label": "Fort Wayne Tower",
+   "values": {
+    "target": 29,
+    "cpc": 18,
+    "cpc_it": 0,
+    "developmental": 6,
+    "on_board": 24,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "fxe",
+   "type": "Tower",
+   "label": "Fort Lauderdale Executive Tower",
+   "values": {
+    "target": 21,
+    "cpc": 12,
+    "cpc_it": 1,
+    "developmental": 3,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "gcn",
+   "type": "Tower",
+   "label": "Grand Canyon Tower",
+   "values": {
+    "target": 14,
+    "cpc": 8,
+    "cpc_it": 0,
+    "developmental": 1,
+    "on_board": 9,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "geg",
+   "type": "TowerTracon",
+   "label": "Spokane Tower",
+   "values": {
+    "target": 44,
+    "cpc": 31,
+    "cpc_it": 1,
+    "developmental": 4,
+    "on_board": 36,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "gfk",
+   "type": "Tower",
+   "label": "Grand Forks Tower",
+   "values": {
+    "target": 30,
+    "cpc": 16,
+    "cpc_it": 0,
+    "developmental": 0,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ggg",
+   "type": "TowerTracon",
+   "label": "Longview Tower",
+   "values": {
+    "target": 28,
+    "cpc": 19,
+    "cpc_it": 1,
+    "developmental": 1,
+    "on_board": 21,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "gpt",
+   "type": "TowerTracon",
+   "label": "Gulfport Tower",
+   "values": {
+    "target": 22,
+    "cpc": 16,
+    "cpc_it": 1,
+    "developmental": 3,
+    "on_board": 20,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "grb",
+   "type": "TowerTracon",
+   "label": "Green Bay Tower",
+   "values": {
+    "target": 26,
+    "cpc": 19,
+    "cpc_it": 1,
+    "developmental": 3,
+    "on_board": 23,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "grr",
+   "type": "Tower",
+   "label": "Grand Rapids Tower",
+   "values": {
+    "target": 14,
+    "cpc": 8,
+    "cpc_it": 0,
+    "developmental": 4,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "gso",
+   "type": "TowerTracon",
+   "label": "Greensboro Tower",
+   "values": {
+    "target": 28,
+    "cpc": 22,
+    "cpc_it": 2,
+    "developmental": 6,
+    "on_board": 30,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "gsp",
+   "type": "TowerTracon",
+   "label": "Greer Tower",
+   "values": {
+    "target": 24,
+    "cpc": 20,
+    "cpc_it": 2,
+    "developmental": 3,
+    "on_board": 25,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "gtf",
+   "type": "TowerTracon",
+   "label": "Great Falls Tower",
+   "values": {
+    "target": 23,
+    "cpc": 11,
+    "cpc_it": 0,
+    "developmental": 7,
+    "on_board": 18,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "hcf",
+   "type": "CombinedFacility",
+   "label": "Honolulu Control Facility",
+   "values": {
+    "target": 93,
+    "cpc": 66,
+    "cpc_it": 6,
+    "developmental": 15,
+    "on_board": 87,
+    "cpc_attrition_forecast_next_fy": 6,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "hef",
+   "type": "Tower",
+   "label": "Manassas Tower",
+   "values": {
+    "target": 12,
+    "cpc": 9,
+    "cpc_it": 2,
+    "developmental": 5,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "hio",
+   "type": "Tower",
+   "label": "Hillsboro Tower",
+   "values": {
+    "target": 18,
+    "cpc": 15,
+    "cpc_it": 1,
+    "developmental": 3,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "hln",
+   "type": "TowerTracon",
+   "label": "Helena Tower",
+   "values": {
+    "target": 16,
+    "cpc": 9,
+    "cpc_it": 0,
+    "developmental": 1,
+    "on_board": 10,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "hou",
+   "type": "Tower",
+   "label": "Hobby Tower",
+   "values": {
+    "target": 22,
+    "cpc": 15,
+    "cpc_it": 5,
+    "developmental": 1,
+    "on_board": 21,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "hpn",
+   "type": "Tower",
+   "label": "Westchester Tower",
+   "values": {
+    "target": 22,
+    "cpc": 10,
+    "cpc_it": 0,
+    "developmental": 9,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "hsv",
+   "type": "TowerTracon",
+   "label": "Huntsville Tower",
+   "values": {
+    "target": 24,
+    "cpc": 14,
+    "cpc_it": 2,
+    "developmental": 4,
+    "on_board": 20,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "hts",
+   "type": "TowerTracon",
+   "label": "Huntington Tower",
+   "values": {
+    "target": 27,
+    "cpc": 17,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "huf",
+   "type": "TowerTracon",
+   "label": "Terre Haute Tower",
+   "values": {
+    "target": 29,
+    "cpc": 15,
+    "cpc_it": 1,
+    "developmental": 2,
+    "on_board": 18,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "hwd",
+   "type": "Tower",
+   "label": "Hayward Tower",
+   "values": {
+    "target": 14,
+    "cpc": 9,
+    "cpc_it": 1,
+    "developmental": 1,
+    "on_board": 11,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "i90",
+   "type": "Tracon",
+   "label": "Houston TRACON",
+   "values": {
+    "target": 96,
+    "cpc": 71,
+    "cpc_it": 20,
+    "developmental": 0,
+    "on_board": 91,
+    "cpc_attrition_forecast_next_fy": 8,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "iad",
+   "type": "Tower",
+   "label": "Dulles Tower",
+   "values": {
+    "target": 30,
+    "cpc": 27,
+    "cpc_it": 6,
+    "developmental": 0,
+    "on_board": 33,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "iah",
+   "type": "Tower",
+   "label": "Houston Intercontinental Tower",
+   "values": {
+    "target": 39,
+    "cpc": 31,
+    "cpc_it": 9,
+    "developmental": 0,
+    "on_board": 40,
+    "cpc_attrition_forecast_next_fy": 4,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ict",
+   "type": "TowerTracon",
+   "label": "Wichita Tower",
+   "values": {
+    "target": 40,
+    "cpc": 25,
+    "cpc_it": 4,
+    "developmental": 2,
+    "on_board": 31,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ilg",
+   "type": "Tower",
+   "label": "Wilmington Tower",
+   "values": {
+    "target": 14,
+    "cpc": 10,
+    "cpc_it": 1,
+    "developmental": 2,
+    "on_board": 13,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ilm",
+   "type": "TowerTracon",
+   "label": "Wilmington Tower",
+   "values": {
+    "target": 26,
+    "cpc": 17,
+    "cpc_it": 0,
+    "developmental": 8,
+    "on_board": 25,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ind",
+   "type": "TowerTracon",
+   "label": "Indianapolis Tower",
+   "values": {
+    "target": 45,
+    "cpc": 35,
+    "cpc_it": 8,
+    "developmental": 0,
+    "on_board": 43,
+    "cpc_attrition_forecast_next_fy": 3,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "isp",
+   "type": "Tower",
+   "label": "Islip Tower",
+   "values": {
+    "target": 23,
+    "cpc": 14,
+    "cpc_it": 3,
+    "developmental": 2,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ito",
+   "type": "TowerTracon",
+   "label": "Hilo TRACAB",
+   "values": {
+    "target": 18,
+    "cpc": 12,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 14,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "jan",
+   "type": "TowerTracon",
+   "label": "Jackson Tower",
+   "values": {
+    "target": 22,
+    "cpc": 15,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 20,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "jax",
+   "type": "TowerTracon",
+   "label": "Jacksonville Tower",
+   "values": {
+    "target": 45,
+    "cpc": 40,
+    "cpc_it": 5,
+    "developmental": 1,
+    "on_board": 46,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "jcf",
+   "type": "CombinedFacility",
+   "label": "Joshua TRACON",
+   "values": {
+    "target": 26,
+    "cpc": 18,
+    "cpc_it": 1,
+    "developmental": 4,
+    "on_board": 23,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "jfk",
+   "type": "Tower",
+   "label": "Kennedy Tower",
+   "values": {
+    "target": 33,
+    "cpc": 30,
+    "cpc_it": 3,
+    "developmental": 0,
+    "on_board": 33,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "jnu",
+   "type": "Tower",
+   "label": "Juneau Tower",
+   "values": {
+    "target": 19,
+    "cpc": 11,
+    "cpc_it": 1,
+    "developmental": 3,
+    "on_board": 15,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "l30",
+   "type": "Tracon",
+   "label": "Las Vegas TRACON",
+   "values": {
+    "target": 56,
+    "cpc": 36,
+    "cpc_it": 4,
+    "developmental": 0,
+    "on_board": 40,
+    "cpc_attrition_forecast_next_fy": 3,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "laf",
+   "type": "Tower",
+   "label": "Lafayette Tower",
+   "values": {
+    "target": 12,
+    "cpc": 8,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 13,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "lan",
+   "type": "Tower",
+   "label": "Lansing Tower",
+   "values": {
+    "target": 15,
+    "cpc": 13,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 15,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "las",
+   "type": "Tower",
+   "label": "Las Vegas Tower",
+   "values": {
+    "target": 41,
+    "cpc": 29,
+    "cpc_it": 3,
+    "developmental": 0,
+    "on_board": 32,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "lax",
+   "type": "Tower",
+   "label": "Los Angeles Tower",
+   "values": {
+    "target": 56,
+    "cpc": 39,
+    "cpc_it": 11,
+    "developmental": 0,
+    "on_board": 50,
+    "cpc_attrition_forecast_next_fy": 4,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "lbb",
+   "type": "TowerTracon",
+   "label": "Lubbock Tower",
+   "values": {
+    "target": 26,
+    "cpc": 15,
+    "cpc_it": 0,
+    "developmental": 7,
+    "on_board": 22,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "lch",
+   "type": "TowerTracon",
+   "label": "Lake Charles Tower",
+   "values": {
+    "target": 21,
+    "cpc": 13,
+    "cpc_it": 0,
+    "developmental": 4,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "lex",
+   "type": "TowerTracon",
+   "label": "Lexington Tower",
+   "values": {
+    "target": 30,
+    "cpc": 21,
+    "cpc_it": 2,
+    "developmental": 5,
+    "on_board": 28,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "lft",
+   "type": "TowerTracon",
+   "label": "Lafayette Tower",
+   "values": {
+    "target": 24,
+    "cpc": 16,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "lga",
+   "type": "Tower",
+   "label": "La Guardia Tower",
+   "values": {
+    "target": 37,
+    "cpc": 29,
+    "cpc_it": 8,
+    "developmental": 0,
+    "on_board": 37,
+    "cpc_attrition_forecast_next_fy": 4,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "lgb",
+   "type": "Tower",
+   "label": "Long Beach Tower",
+   "values": {
+    "target": 26,
+    "cpc": 19,
+    "cpc_it": 1,
+    "developmental": 0,
+    "on_board": 20,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "lit",
+   "type": "TowerTracon",
+   "label": "Little Rock Tower",
+   "values": {
+    "target": 38,
+    "cpc": 20,
+    "cpc_it": 3,
+    "developmental": 4,
+    "on_board": 27,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "lnk",
+   "type": "Tower",
+   "label": "Lincoln Tower",
+   "values": {
+    "target": 12,
+    "cpc": 9,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "lou",
+   "type": "Tower",
+   "label": "Louisville Bowman Tower",
+   "values": {
+    "target": 14,
+    "cpc": 11,
+    "cpc_it": 0,
+    "developmental": 0,
+    "on_board": 11,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "lvk",
+   "type": "Tower",
+   "label": "Livermore Tower",
+   "values": {
+    "target": 14,
+    "cpc": 10,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 13,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "m03",
+   "type": "Tracon",
+   "label": "Memphis TRACON",
+   "values": {
+    "target": 41,
+    "cpc": 23,
+    "cpc_it": 1,
+    "developmental": 2,
+    "on_board": 26,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "m98",
+   "type": "Tracon",
+   "label": "Minneapolis TRACON",
+   "values": {
+    "target": 54,
+    "cpc": 46,
+    "cpc_it": 8,
+    "developmental": 4,
+    "on_board": 58,
+    "cpc_attrition_forecast_next_fy": 5,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "maf",
+   "type": "TowerTracon",
+   "label": "Midland Tower",
+   "values": {
+    "target": 26,
+    "cpc": 11,
+    "cpc_it": 0,
+    "developmental": 7,
+    "on_board": 18,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mbs",
+   "type": "Tower",
+   "label": "Saginaw Tower",
+   "values": {
+    "target": 14,
+    "cpc": 7,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 10,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mci",
+   "type": "TowerTracon",
+   "label": "Kansas City International Tower",
+   "values": {
+    "target": 40,
+    "cpc": 34,
+    "cpc_it": 4,
+    "developmental": 2,
+    "on_board": 40,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mco",
+   "type": "Tower",
+   "label": "Orlando Tower",
+   "values": {
+    "target": 35,
+    "cpc": 23,
+    "cpc_it": 3,
+    "developmental": 0,
+    "on_board": 26,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mdt",
+   "type": "TowerTracon",
+   "label": "Harrisburg International Tower",
+   "values": {
+    "target": 32,
+    "cpc": 23,
+    "cpc_it": 1,
+    "developmental": 10,
+    "on_board": 34,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mdw",
+   "type": "Tower",
+   "label": "Midway Tower",
+   "values": {
+    "target": 22,
+    "cpc": 19,
+    "cpc_it": 1,
+    "developmental": 2,
+    "on_board": 22,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mem",
+   "type": "Tower",
+   "label": "Memphis Tower",
+   "values": {
+    "target": 35,
+    "cpc": 23,
+    "cpc_it": 4,
+    "developmental": 1,
+    "on_board": 28,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mfd",
+   "type": "Tower",
+   "label": "Mansfield Tower",
+   "values": {
+    "target": 12,
+    "cpc": 8,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 10,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mgm",
+   "type": "TowerTracon",
+   "label": "Montgomery Tower",
+   "values": {
+    "target": 24,
+    "cpc": 15,
+    "cpc_it": 1,
+    "developmental": 8,
+    "on_board": 24,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mht",
+   "type": "Tower",
+   "label": "Manchester Tower",
+   "values": {
+    "target": 16,
+    "cpc": 15,
+    "cpc_it": 0,
+    "developmental": 1,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mia",
+   "type": "TowerTracon",
+   "label": "Miami Tower",
+   "values": {
+    "target": 98,
+    "cpc": 64,
+    "cpc_it": 27,
+    "developmental": 0,
+    "on_board": 91,
+    "cpc_attrition_forecast_next_fy": 6,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mic",
+   "type": "Tower",
+   "label": "Crystal Tower",
+   "values": {
+    "target": 12,
+    "cpc": 11,
+    "cpc_it": 0,
+    "developmental": 1,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mkc",
+   "type": "Tower",
+   "label": "Kansas City Downtown Tower",
+   "values": {
+    "target": 19,
+    "cpc": 14,
+    "cpc_it": 1,
+    "developmental": 4,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mke",
+   "type": "TowerTracon",
+   "label": "Milwaukee Tower",
+   "values": {
+    "target": 49,
+    "cpc": 26,
+    "cpc_it": 7,
+    "developmental": 1,
+    "on_board": 34,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mkg",
+   "type": "Tower",
+   "label": "Muskegon Tower",
+   "values": {
+    "target": 12,
+    "cpc": 7,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 9,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mli",
+   "type": "TowerTracon",
+   "label": "Moline Quad City Tower",
+   "values": {
+    "target": 21,
+    "cpc": 15,
+    "cpc_it": 1,
+    "developmental": 5,
+    "on_board": 21,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mlu",
+   "type": "TowerTracon",
+   "label": "Monroe Tower",
+   "values": {
+    "target": 21,
+    "cpc": 11,
+    "cpc_it": 2,
+    "developmental": 3,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mmu",
+   "type": "Tower",
+   "label": "Morristown Tower",
+   "values": {
+    "target": 19,
+    "cpc": 9,
+    "cpc_it": 0,
+    "developmental": 4,
+    "on_board": 13,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mob",
+   "type": "TowerTracon",
+   "label": "Mobile Tower",
+   "values": {
+    "target": 24,
+    "cpc": 17,
+    "cpc_it": 1,
+    "developmental": 6,
+    "on_board": 24,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mri",
+   "type": "Tower",
+   "label": "Merrill Tower",
+   "values": {
+    "target": 14,
+    "cpc": 9,
+    "cpc_it": 1,
+    "developmental": 1,
+    "on_board": 11,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mry",
+   "type": "Tower",
+   "label": "Monterey Tower",
+   "values": {
+    "target": 12,
+    "cpc": 8,
+    "cpc_it": 0,
+    "developmental": 1,
+    "on_board": 9,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "msn",
+   "type": "TowerTracon",
+   "label": "Madison Tower",
+   "values": {
+    "target": 30,
+    "cpc": 17,
+    "cpc_it": 1,
+    "developmental": 5,
+    "on_board": 23,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "msp",
+   "type": "Tower",
+   "label": "Minneapolis Tower",
+   "values": {
+    "target": 37,
+    "cpc": 33,
+    "cpc_it": 3,
+    "developmental": 0,
+    "on_board": 36,
+    "cpc_attrition_forecast_next_fy": 3,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "msy",
+   "type": "TowerTracon",
+   "label": "Moiusantt Tower",
+   "values": {
+    "target": 39,
+    "cpc": 27,
+    "cpc_it": 4,
+    "developmental": 1,
+    "on_board": 32,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "mwh",
+   "type": "TowerTracon",
+   "label": "Grant County Tower",
+   "values": {
+    "target": 21,
+    "cpc": 14,
+    "cpc_it": 0,
+    "developmental": 4,
+    "on_board": 18,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "myf",
+   "type": "Tower",
+   "label": "Montgomery Tower",
+   "values": {
+    "target": 21,
+    "cpc": 16,
+    "cpc_it": 1,
+    "developmental": 0,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "myr",
+   "type": "TowerTracon",
+   "label": "Myrtle Beach Tower",
+   "values": {
+    "target": 27,
+    "cpc": 19,
+    "cpc_it": 2,
+    "developmental": 0,
+    "on_board": 21,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "n90",
+   "type": "Tracon",
+   "label": "New York TRACON",
+   "values": {
+    "target": 226,
+    "cpc": 113,
+    "cpc_it": 11,
+    "developmental": 66,
+    "on_board": 190,
+    "cpc_attrition_forecast_next_fy": 13,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "nct",
+   "type": "Tracon",
+   "label": "Northern California TRACON",
+   "values": {
+    "target": 174,
+    "cpc": 121,
+    "cpc_it": 13,
+    "developmental": 0,
+    "on_board": 134,
+    "cpc_attrition_forecast_next_fy": 8,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "new",
+   "type": "Tower",
+   "label": "Lakefront Tower",
+   "values": {
+    "target": 14,
+    "cpc": 8,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 10,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "oak",
+   "type": "Tower",
+   "label": "Oakland Tower",
+   "values": {
+    "target": 35,
+    "cpc": 19,
+    "cpc_it": 2,
+    "developmental": 0,
+    "on_board": 21,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ogg",
+   "type": "Tower",
+   "label": "Kahului Tower",
+   "values": {
+    "target": 19,
+    "cpc": 12,
+    "cpc_it": 2,
+    "developmental": 5,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "okc",
+   "type": "TowerTracon",
+   "label": "Oklahoma City Tower",
+   "values": {
+    "target": 36,
+    "cpc": 25,
+    "cpc_it": 2,
+    "developmental": 4,
+    "on_board": 31,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "oma",
+   "type": "Tower",
+   "label": "Omaha Tower",
+   "values": {
+    "target": 16,
+    "cpc": 13,
+    "cpc_it": 1,
+    "developmental": 3,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ont",
+   "type": "Tower",
+   "label": "Ontario Tower",
+   "values": {
+    "target": 21,
+    "cpc": 12,
+    "cpc_it": 1,
+    "developmental": 5,
+    "on_board": 18,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ord",
+   "type": "Tower",
+   "label": "Chicago O'Hare Tower",
+   "values": {
+    "target": 73,
+    "cpc": 60,
+    "cpc_it": 10,
+    "developmental": 0,
+    "on_board": 70,
+    "cpc_attrition_forecast_next_fy": 5,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "orf",
+   "type": "TowerTracon",
+   "label": "Norfolk Tower",
+   "values": {
+    "target": 35,
+    "cpc": 18,
+    "cpc_it": 5,
+    "developmental": 2,
+    "on_board": 25,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "orl",
+   "type": "Tower",
+   "label": "Orlando Executive Tower",
+   "values": {
+    "target": 12,
+    "cpc": 10,
+    "cpc_it": 3,
+    "developmental": 3,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "p31",
+   "type": "Tracon",
+   "label": "Pensacola TRACON",
+   "values": {
+    "target": 35,
+    "cpc": 31,
+    "cpc_it": 5,
+    "developmental": 0,
+    "on_board": 36,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "p50",
+   "type": "Tracon",
+   "label": "Phoenix TRACON",
+   "values": {
+    "target": 58,
+    "cpc": 50,
+    "cpc_it": 10,
+    "developmental": 0,
+    "on_board": 60,
+    "cpc_attrition_forecast_next_fy": 4,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "p80",
+   "type": "Tracon",
+   "label": "Portland TRACON",
+   "values": {
+    "target": 26,
+    "cpc": 25,
+    "cpc_it": 2,
+    "developmental": 2,
+    "on_board": 29,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pae",
+   "type": "Tower",
+   "label": "Paine Tower",
+   "values": {
+    "target": 14,
+    "cpc": 8,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 10,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pao",
+   "type": "Tower",
+   "label": "Palo Alto Tower",
+   "values": {
+    "target": 14,
+    "cpc": 8,
+    "cpc_it": 0,
+    "developmental": 4,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pbi",
+   "type": "TowerTracon",
+   "label": "West Palm Beach Tower",
+   "values": {
+    "target": 58,
+    "cpc": 41,
+    "cpc_it": 5,
+    "developmental": 3,
+    "on_board": 49,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pct",
+   "type": "Tracon",
+   "label": "Potomac TRACON",
+   "values": {
+    "target": 173,
+    "cpc": 146,
+    "cpc_it": 14,
+    "developmental": 0,
+    "on_board": 160,
+    "cpc_attrition_forecast_next_fy": 10,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pdk",
+   "type": "Tower",
+   "label": "DeKalb-Peachtree Tower",
+   "values": {
+    "target": 22,
+    "cpc": 9,
+    "cpc_it": 4,
+    "developmental": 4,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pdx",
+   "type": "Tower",
+   "label": "Portland Tower",
+   "values": {
+    "target": 26,
+    "cpc": 24,
+    "cpc_it": 2,
+    "developmental": 1,
+    "on_board": 27,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "phf",
+   "type": "Tower",
+   "label": "Patrick Henry Tower",
+   "values": {
+    "target": 14,
+    "cpc": 10,
+    "cpc_it": 1,
+    "developmental": 6,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "phl",
+   "type": "TowerTracon",
+   "label": "Philadelphia Tower",
+   "values": {
+    "target": 114,
+    "cpc": 102,
+    "cpc_it": 15,
+    "developmental": 3,
+    "on_board": 120,
+    "cpc_attrition_forecast_next_fy": 8,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "phx",
+   "type": "Tower",
+   "label": "Phoenix Tower",
+   "values": {
+    "target": 35,
+    "cpc": 25,
+    "cpc_it": 5,
+    "developmental": 0,
+    "on_board": 30,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pia",
+   "type": "Tower",
+   "label": "Peoria Tower",
+   "values": {
+    "target": 15,
+    "cpc": 14,
+    "cpc_it": 0,
+    "developmental": 0,
+    "on_board": 14,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pie",
+   "type": "Tower",
+   "label": "St. Petersburg Tower",
+   "values": {
+    "target": 14,
+    "cpc": 11,
+    "cpc_it": 2,
+    "developmental": 0,
+    "on_board": 13,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pit",
+   "type": "TowerTracon",
+   "label": "Pittsburgh Tower",
+   "values": {
+    "target": 45,
+    "cpc": 35,
+    "cpc_it": 6,
+    "developmental": 1,
+    "on_board": 42,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pne",
+   "type": "Tower",
+   "label": "Northeast Philadelphia Tower",
+   "values": {
+    "target": 14,
+    "cpc": 9,
+    "cpc_it": 1,
+    "developmental": 3,
+    "on_board": 13,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pns",
+   "type": "Tower",
+   "label": "Pensacola Tower",
+   "values": {
+    "target": 14,
+    "cpc": 11,
+    "cpc_it": 0,
+    "developmental": 4,
+    "on_board": 15,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "poc",
+   "type": "Tower",
+   "label": "Brackett Tower",
+   "values": {
+    "target": 14,
+    "cpc": 10,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 13,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pou",
+   "type": "Tower",
+   "label": "Poughkeepsie Tower",
+   "values": {
+    "target": 12,
+    "cpc": 8,
+    "cpc_it": 1,
+    "developmental": 3,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "prc",
+   "type": "Tower",
+   "label": "Prescott Tower",
+   "values": {
+    "target": 18,
+    "cpc": 12,
+    "cpc_it": 1,
+    "developmental": 0,
+    "on_board": 13,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "psc",
+   "type": "Tower",
+   "label": "Pasco Tower",
+   "values": {
+    "target": 17,
+    "cpc": 9,
+    "cpc_it": 0,
+    "developmental": 1,
+    "on_board": 10,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "psp",
+   "type": "Tower",
+   "label": "Palm Springs Tower",
+   "values": {
+    "target": 12,
+    "cpc": 10,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ptk",
+   "type": "Tower",
+   "label": "Pontiac Tower",
+   "values": {
+    "target": 15,
+    "cpc": 10,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pub",
+   "type": "Tower",
+   "label": "Pueblo Tower",
+   "values": {
+    "target": 18,
+    "cpc": 10,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 15,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pvd",
+   "type": "TowerTracon",
+   "label": "Providence Tower",
+   "values": {
+    "target": 37,
+    "cpc": 27,
+    "cpc_it": 1,
+    "developmental": 6,
+    "on_board": 34,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pwk",
+   "type": "Tower",
+   "label": "Palwaukee Tower",
+   "values": {
+    "target": 14,
+    "cpc": 13,
+    "cpc_it": 2,
+    "developmental": 1,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "pwm",
+   "type": "TowerTracon",
+   "label": "Portland Tower",
+   "values": {
+    "target": 26,
+    "cpc": 20,
+    "cpc_it": 3,
+    "developmental": 0,
+    "on_board": 23,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "r90",
+   "type": "Tracon",
+   "label": "Omaha TRACON",
+   "values": {
+    "target": 24,
+    "cpc": 17,
+    "cpc_it": 1,
+    "developmental": 3,
+    "on_board": 21,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "rdg",
+   "type": "Tower",
+   "label": "Reading TRACAB",
+   "values": {
+    "target": 18,
+    "cpc": 15,
+    "cpc_it": 2,
+    "developmental": 1,
+    "on_board": 18,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "rdu",
+   "type": "TowerTracon",
+   "label": "Raleigh-Durham Tower",
+   "values": {
+    "target": 43,
+    "cpc": 39,
+    "cpc_it": 5,
+    "developmental": 1,
+    "on_board": 45,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "rfd",
+   "type": "TowerTracon",
+   "label": "Rockford Tower",
+   "values": {
+    "target": 32,
+    "cpc": 16,
+    "cpc_it": 2,
+    "developmental": 4,
+    "on_board": 22,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "rhv",
+   "type": "Tower",
+   "label": "Reid-Hillview Tower",
+   "values": {
+    "target": 14,
+    "cpc": 9,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 11,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ric",
+   "type": "Tower",
+   "label": "Richmond Tower",
+   "values": {
+    "target": 16,
+    "cpc": 16,
+    "cpc_it": 0,
+    "developmental": 1,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "rno",
+   "type": "Tower",
+   "label": "Reno Tower",
+   "values": {
+    "target": 21,
+    "cpc": 13,
+    "cpc_it": 1,
+    "developmental": 6,
+    "on_board": 20,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "roa",
+   "type": "TowerTracon",
+   "label": "Roanoke Tower",
+   "values": {
+    "target": 28,
+    "cpc": 20,
+    "cpc_it": 2,
+    "developmental": 8,
+    "on_board": 30,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "roc",
+   "type": "TowerTracon",
+   "label": "Rochester Tower",
+   "values": {
+    "target": 37,
+    "cpc": 22,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 25,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "row",
+   "type": "TowerTracon",
+   "label": "Roswell Tower",
+   "values": {
+    "target": 18,
+    "cpc": 12,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "rst",
+   "type": "TowerTracon",
+   "label": "Rochester Municipal TRACAB",
+   "values": {
+    "target": 23,
+    "cpc": 11,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 13,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "rsw",
+   "type": "TowerTracon",
+   "label": "Fort Myers Tower",
+   "values": {
+    "target": 37,
+    "cpc": 29,
+    "cpc_it": 0,
+    "developmental": 0,
+    "on_board": 29,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "rvs",
+   "type": "Tower",
+   "label": "Riverside Tower",
+   "values": {
+    "target": 18,
+    "cpc": 13,
+    "cpc_it": 2,
+    "developmental": 4,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "s46",
+   "type": "Tracon",
+   "label": "Seattle TRACON",
+   "values": {
+    "target": 52,
+    "cpc": 33,
+    "cpc_it": 7,
+    "developmental": 0,
+    "on_board": 40,
+    "cpc_attrition_forecast_next_fy": 3,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "s56",
+   "type": "Tracon",
+   "label": "Salt Lake City TRACON",
+   "values": {
+    "target": 45,
+    "cpc": 34,
+    "cpc_it": 4,
+    "developmental": 1,
+    "on_board": 39,
+    "cpc_attrition_forecast_next_fy": 3,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "san",
+   "type": "Tower",
+   "label": "San Diego Tower",
+   "values": {
+    "target": 28,
+    "cpc": 21,
+    "cpc_it": 4,
+    "developmental": 0,
+    "on_board": 25,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sat",
+   "type": "TowerTracon",
+   "label": "San Antonio Tower",
+   "values": {
+    "target": 56,
+    "cpc": 36,
+    "cpc_it": 8,
+    "developmental": 0,
+    "on_board": 44,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sav",
+   "type": "TowerTracon",
+   "label": "Savannah Tower",
+   "values": {
+    "target": 32,
+    "cpc": 21,
+    "cpc_it": 1,
+    "developmental": 4,
+    "on_board": 26,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sba",
+   "type": "TowerTracon",
+   "label": "Santa Barbara Tower",
+   "values": {
+    "target": 30,
+    "cpc": 24,
+    "cpc_it": 0,
+    "developmental": 7,
+    "on_board": 31,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sbn",
+   "type": "TowerTracon",
+   "label": "South Bend Tower",
+   "values": {
+    "target": 30,
+    "cpc": 20,
+    "cpc_it": 1,
+    "developmental": 7,
+    "on_board": 28,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sck",
+   "type": "Tower",
+   "label": "Stockton Tower",
+   "values": {
+    "target": 12,
+    "cpc": 9,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sct",
+   "type": "Tracon",
+   "label": "Southern California TRACON",
+   "values": {
+    "target": 232,
+    "cpc": 180,
+    "cpc_it": 32,
+    "developmental": 0,
+    "on_board": 212,
+    "cpc_attrition_forecast_next_fy": 13,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sdf",
+   "type": "TowerTracon",
+   "label": "Standiford Tower",
+   "values": {
+    "target": 52,
+    "cpc": 36,
+    "cpc_it": 7,
+    "developmental": 1,
+    "on_board": 44,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sdl",
+   "type": "Tower",
+   "label": "Scottsdale Tower",
+   "values": {
+    "target": 16,
+    "cpc": 9,
+    "cpc_it": 1,
+    "developmental": 2,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sea",
+   "type": "Tower",
+   "label": "Seattle Tower",
+   "values": {
+    "target": 33,
+    "cpc": 27,
+    "cpc_it": 3,
+    "developmental": 0,
+    "on_board": 30,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "see",
+   "type": "Tower",
+   "label": "Gillespie Tower",
+   "values": {
+    "target": 19,
+    "cpc": 14,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sfb",
+   "type": "Tower",
+   "label": "Sanford Tower",
+   "values": {
+    "target": 18,
+    "cpc": 17,
+    "cpc_it": 0,
+    "developmental": 0,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sfo",
+   "type": "Tower",
+   "label": "San Francisco Tower",
+   "values": {
+    "target": 30,
+    "cpc": 24,
+    "cpc_it": 8,
+    "developmental": 1,
+    "on_board": 33,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sgf",
+   "type": "TowerTracon",
+   "label": "Springfield Tower",
+   "values": {
+    "target": 30,
+    "cpc": 25,
+    "cpc_it": 1,
+    "developmental": 3,
+    "on_board": 29,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "shv",
+   "type": "TowerTracon",
+   "label": "Shreveport Tower",
+   "values": {
+    "target": 28,
+    "cpc": 21,
+    "cpc_it": 0,
+    "developmental": 4,
+    "on_board": 25,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sjc",
+   "type": "Tower",
+   "label": "San Jose Tower",
+   "values": {
+    "target": 15,
+    "cpc": 15,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 20,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sju",
+   "type": "Tower",
+   "label": "San Juan Tower",
+   "values": {
+    "target": 22,
+    "cpc": 17,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "slc",
+   "type": "Tower",
+   "label": "Salt Lake City Tower",
+   "values": {
+    "target": 33,
+    "cpc": 30,
+    "cpc_it": 3,
+    "developmental": 0,
+    "on_board": 33,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "smf",
+   "type": "Tower",
+   "label": "Sacramento Tower",
+   "values": {
+    "target": 16,
+    "cpc": 11,
+    "cpc_it": 0,
+    "developmental": 6,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "smo",
+   "type": "Tower",
+   "label": "Santa Monica Tower",
+   "values": {
+    "target": 16,
+    "cpc": 13,
+    "cpc_it": 1,
+    "developmental": 2,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sna",
+   "type": "Tower",
+   "label": "John Wayne Tower",
+   "values": {
+    "target": 26,
+    "cpc": 18,
+    "cpc_it": 6,
+    "developmental": 1,
+    "on_board": 25,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "spi",
+   "type": "Tower",
+   "label": "Springfield Tower",
+   "values": {
+    "target": 12,
+    "cpc": 8,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 10,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "srq",
+   "type": "Tower",
+   "label": "Sarasota Tower",
+   "values": {
+    "target": 16,
+    "cpc": 12,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "stl",
+   "type": "Tower",
+   "label": "St. Louis Tower",
+   "values": {
+    "target": 22,
+    "cpc": 19,
+    "cpc_it": 2,
+    "developmental": 5,
+    "on_board": 26,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "stp",
+   "type": "Tower",
+   "label": "St. Paul Tower",
+   "values": {
+    "target": 14,
+    "cpc": 11,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 14,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sts",
+   "type": "Tower",
+   "label": "Sonoma Tower",
+   "values": {
+    "target": 14,
+    "cpc": 7,
+    "cpc_it": 0,
+    "developmental": 2,
+    "on_board": 9,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "stt",
+   "type": "Tower",
+   "label": "St. Thomas Tower",
+   "values": {
+    "target": 14,
+    "cpc": 11,
+    "cpc_it": 1,
+    "developmental": 0,
+    "on_board": 12,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sus",
+   "type": "Tower",
+   "label": "Spirit Tower",
+   "values": {
+    "target": 14,
+    "cpc": 13,
+    "cpc_it": 1,
+    "developmental": 1,
+    "on_board": 15,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "sux",
+   "type": "TowerTracon",
+   "label": "Sioux Gateway Tower",
+   "values": {
+    "target": 21,
+    "cpc": 13,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "syr",
+   "type": "TowerTracon",
+   "label": "Syracuse Tower",
+   "values": {
+    "target": 28,
+    "cpc": 15,
+    "cpc_it": 0,
+    "developmental": 9,
+    "on_board": 24,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "t75",
+   "type": "Tracon",
+   "label": "St. Louis TRACON",
+   "values": {
+    "target": 39,
+    "cpc": 31,
+    "cpc_it": 10,
+    "developmental": 0,
+    "on_board": 41,
+    "cpc_attrition_forecast_next_fy": 4,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "teb",
+   "type": "Tower",
+   "label": "Teterboro Tower",
+   "values": {
+    "target": 22,
+    "cpc": 16,
+    "cpc_it": 2,
+    "developmental": 0,
+    "on_board": 18,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "tlh",
+   "type": "TowerTracon",
+   "label": "Tallahassee Tower",
+   "values": {
+    "target": 24,
+    "cpc": 15,
+    "cpc_it": 0,
+    "developmental": 8,
+    "on_board": 23,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "tmb",
+   "type": "Tower",
+   "label": "Tamiami Tower",
+   "values": {
+    "target": 22,
+    "cpc": 16,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "toa",
+   "type": "Tower",
+   "label": "Torrance Tower",
+   "values": {
+    "target": 14,
+    "cpc": 9,
+    "cpc_it": 0,
+    "developmental": 4,
+    "on_board": 13,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "tol",
+   "type": "TowerTracon",
+   "label": "Toledo Tower",
+   "values": {
+    "target": 25,
+    "cpc": 20,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 25,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "tpa",
+   "type": "TowerTracon",
+   "label": "Tampa Tower",
+   "values": {
+    "target": 67,
+    "cpc": 42,
+    "cpc_it": 16,
+    "developmental": 3,
+    "on_board": 61,
+    "cpc_attrition_forecast_next_fy": 4,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "tri",
+   "type": "TowerTracon",
+   "label": "Tri-Cities Tower",
+   "values": {
+    "target": 24,
+    "cpc": 14,
+    "cpc_it": 0,
+    "developmental": 8,
+    "on_board": 22,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "tul",
+   "type": "TowerTracon",
+   "label": "Tulsa Tower",
+   "values": {
+    "target": 34,
+    "cpc": 23,
+    "cpc_it": 4,
+    "developmental": 2,
+    "on_board": 29,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "tus",
+   "type": "Tower",
+   "label": "Tucson Tower",
+   "values": {
+    "target": 22,
+    "cpc": 17,
+    "cpc_it": 0,
+    "developmental": 4,
+    "on_board": 21,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "tvc",
+   "type": "Tower",
+   "label": "Traverse City Tower",
+   "values": {
+    "target": 14,
+    "cpc": 6,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 11,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "twf",
+   "type": "TowerTracon",
+   "label": "Twin Falls Tower",
+   "values": {
+    "target": 14,
+    "cpc": 7,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 10,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "tys",
+   "type": "TowerTracon",
+   "label": "Knoxville Tower",
+   "values": {
+    "target": 37,
+    "cpc": 23,
+    "cpc_it": 6,
+    "developmental": 2,
+    "on_board": 31,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "u90",
+   "type": "Tracon",
+   "label": "Tucson TRACON",
+   "values": {
+    "target": 24,
+    "cpc": 15,
+    "cpc_it": 3,
+    "developmental": 2,
+    "on_board": 20,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "vgt",
+   "type": "Tower",
+   "label": "North Las Vegas Tower",
+   "values": {
+    "target": 20,
+    "cpc": 9,
+    "cpc_it": 1,
+    "developmental": 6,
+    "on_board": 16,
+    "cpc_attrition_forecast_next_fy": 0,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "vny",
+   "type": "Tower",
+   "label": "Van Nuys Tower",
+   "values": {
+    "target": 26,
+    "cpc": 18,
+    "cpc_it": 4,
+    "developmental": 0,
+    "on_board": 22,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "vrb",
+   "type": "Tower",
+   "label": "Vero Beach Tower",
+   "values": {
+    "target": 13,
+    "cpc": 8,
+    "cpc_it": 3,
+    "developmental": 4,
+    "on_board": 15,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "y90",
+   "type": "Tracon",
+   "label": "Yankee TRACON",
+   "values": {
+    "target": 26,
+    "cpc": 18,
+    "cpc_it": 3,
+    "developmental": 3,
+    "on_board": 24,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "yip",
+   "type": "Tower",
+   "label": "Willow Run Tower",
+   "values": {
+    "target": 23,
+    "cpc": 13,
+    "cpc_it": 2,
+    "developmental": 2,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "yng",
+   "type": "TowerTracon",
+   "label": "Youngstown Tower",
+   "values": {
+    "target": 25,
+    "cpc": 16,
+    "cpc_it": 0,
+    "developmental": 3,
+    "on_board": 19,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zab",
+   "type": "Center",
+   "label": "Albuquerque ARTCC",
+   "values": {
+    "target": 234,
+    "cpc": 159,
+    "cpc_it": 0,
+    "developmental": 57,
+    "on_board": 216,
+    "cpc_attrition_forecast_next_fy": 8,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zan",
+   "type": "Center",
+   "label": "Anchorage ARTCC",
+   "values": {
+    "target": 106,
+    "cpc": 82,
+    "cpc_it": 1,
+    "developmental": 28,
+    "on_board": 111,
+    "cpc_attrition_forecast_next_fy": 6,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zau",
+   "type": "Center",
+   "label": "Chicago ARTCC",
+   "values": {
+    "target": 321,
+    "cpc": 272,
+    "cpc_it": 4,
+    "developmental": 78,
+    "on_board": 354,
+    "cpc_attrition_forecast_next_fy": 19,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zbw",
+   "type": "Center",
+   "label": "Boston ARTCC",
+   "values": {
+    "target": 207,
+    "cpc": 180,
+    "cpc_it": 6,
+    "developmental": 42,
+    "on_board": 228,
+    "cpc_attrition_forecast_next_fy": 11,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zdc",
+   "type": "Center",
+   "label": "Washington ARTCC",
+   "values": {
+    "target": 312,
+    "cpc": 261,
+    "cpc_it": 8,
+    "developmental": 62,
+    "on_board": 331,
+    "cpc_attrition_forecast_next_fy": 15,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zdv",
+   "type": "Center",
+   "label": "Denver ARTCC",
+   "values": {
+    "target": 294,
+    "cpc": 222,
+    "cpc_it": 9,
+    "developmental": 42,
+    "on_board": 273,
+    "cpc_attrition_forecast_next_fy": 14,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zfw",
+   "type": "Center",
+   "label": "Fort Worth ARTCC",
+   "values": {
+    "target": 295,
+    "cpc": 244,
+    "cpc_it": 7,
+    "developmental": 70,
+    "on_board": 321,
+    "cpc_attrition_forecast_next_fy": 13,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zhu",
+   "type": "Center",
+   "label": "Houston ARTCC",
+   "values": {
+    "target": 302,
+    "cpc": 247,
+    "cpc_it": 9,
+    "developmental": 46,
+    "on_board": 302,
+    "cpc_attrition_forecast_next_fy": 16,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zid",
+   "type": "Center",
+   "label": "Indianapolis ARTCC",
+   "values": {
+    "target": 298,
+    "cpc": 250,
+    "cpc_it": 11,
+    "developmental": 64,
+    "on_board": 325,
+    "cpc_attrition_forecast_next_fy": 16,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zjx",
+   "type": "Center",
+   "label": "Jacksonville ARTCC",
+   "values": {
+    "target": 298,
+    "cpc": 229,
+    "cpc_it": 19,
+    "developmental": 47,
+    "on_board": 295,
+    "cpc_attrition_forecast_next_fy": 14,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zkc",
+   "type": "Center",
+   "label": "Kansas City ARTCC",
+   "values": {
+    "target": 241,
+    "cpc": 200,
+    "cpc_it": 7,
+    "developmental": 41,
+    "on_board": 248,
+    "cpc_attrition_forecast_next_fy": 13,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zla",
+   "type": "Center",
+   "label": "Los Angeles ARTCC",
+   "values": {
+    "target": 282,
+    "cpc": 192,
+    "cpc_it": 12,
+    "developmental": 73,
+    "on_board": 277,
+    "cpc_attrition_forecast_next_fy": 11,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zlc",
+   "type": "Center",
+   "label": "Salt Lake City ARTCC",
+   "values": {
+    "target": 169,
+    "cpc": 129,
+    "cpc_it": 1,
+    "developmental": 29,
+    "on_board": 159,
+    "cpc_attrition_forecast_next_fy": 8,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zma",
+   "type": "Center",
+   "label": "Miami ARTCC",
+   "values": {
+    "target": 298,
+    "cpc": 208,
+    "cpc_it": 9,
+    "developmental": 73,
+    "on_board": 290,
+    "cpc_attrition_forecast_next_fy": 13,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zme",
+   "type": "Center",
+   "label": "Memphis ARTCC",
+   "values": {
+    "target": 288,
+    "cpc": 225,
+    "cpc_it": 2,
+    "developmental": 59,
+    "on_board": 286,
+    "cpc_attrition_forecast_next_fy": 15,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zmp",
+   "type": "Center",
+   "label": "Minneapolis ARTCC",
+   "values": {
+    "target": 248,
+    "cpc": 222,
+    "cpc_it": 10,
+    "developmental": 55,
+    "on_board": 287,
+    "cpc_attrition_forecast_next_fy": 13,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zny",
+   "type": "Center",
+   "label": "New York ARTCC",
+   "values": {
+    "target": 321,
+    "cpc": 198,
+    "cpc_it": 7,
+    "developmental": 92,
+    "on_board": 297,
+    "cpc_attrition_forecast_next_fy": 20,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zoa",
+   "type": "Center",
+   "label": "Oakland ARTCC",
+   "values": {
+    "target": 216,
+    "cpc": 154,
+    "cpc_it": 15,
+    "developmental": 63,
+    "on_board": 232,
+    "cpc_attrition_forecast_next_fy": 11,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zob",
+   "type": "Center",
+   "label": "Cleveland ARTCC",
+   "values": {
+    "target": 345,
+    "cpc": 285,
+    "cpc_it": 14,
+    "developmental": 44,
+    "on_board": 343,
+    "cpc_attrition_forecast_next_fy": 19,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zse",
+   "type": "Center",
+   "label": "Seattle ARTCC",
+   "values": {
+    "target": 166,
+    "cpc": 139,
+    "cpc_it": 3,
+    "developmental": 41,
+    "on_board": 183,
+    "cpc_attrition_forecast_next_fy": 9,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zsu",
+   "type": "CombinedFacility",
+   "label": "San Juan",
+   "values": {
+    "target": 65,
+    "cpc": 39,
+    "cpc_it": 2,
+    "developmental": 17,
+    "on_board": 58,
+    "cpc_attrition_forecast_next_fy": 2,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "ztl",
+   "type": "Center",
+   "label": "Atlanta ARTCC",
+   "values": {
+    "target": 343,
+    "cpc": 288,
+    "cpc_it": 16,
+    "developmental": 73,
+    "on_board": 377,
+    "cpc_attrition_forecast_next_fy": 17,
+    "critical": 1
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "zua",
+   "type": "CombinedFacility",
+   "label": "Guam",
+   "values": {
+    "target": 18,
+    "cpc": 12,
+    "cpc_it": 0,
+    "developmental": 5,
+    "on_board": 17,
+    "cpc_attrition_forecast_next_fy": 1,
+    "critical": 0
+   },
+   "edges": {
+    "belongs_to": [
+     "faa"
+    ]
+   }
+  },
+  {
+   "name": "faa",
+   "type": "Agency",
+   "label": "Federal Aviation Administration",
+   "values": {
+    "target": 14633,
+    "cpc": 10730,
+    "cpc_it": 953,
+    "developmental": 2091,
+    "on_board": 13774,
+    "academy": 487
+   },
+   "edges": {}
+  },
+  {
+   "name": "faa-hiring",
+   "type": "Program",
+   "label": "FAA controller hiring",
+   "values": {
+    "hires": 1811,
+    "hiring_target": 1800
+   },
+   "edges": {
+    "feeds": [
+     "faa"
+    ]
+   }
+  }
+ ],
+ "printed_totals_differ": []
+}

@@ -1,0 +1,2999 @@
+{
+ "format": "nh-case-study/capture/1",
+ "captured_at": "2017-01-31T00:00:00Z",
+ "month": "2017-01",
+ "source": "CMS Payroll Based Journal daily nurse staffing, Nebraska; the lines from 42 CFR 483.35, QSO-18-17-NH, QSO-19-08-NH and 89 FR 40876 to its vacatur; the emergency from Proclamation 9994 and P.L. 118-3 -- see make_captures.py",
+ "units": [
+  {
+   "name": "nh-285002",
+   "type": "NursingHome",
+   "label": "SUMNER PLACE (Lincoln)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.5396632334202245,
+    "rn_hprd": 0.6584934433463279,
+    "aide_hprd": 3.158170856258118,
+    "residents": 91.0,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285004",
+   "type": "NursingHome",
+   "label": "ST. JANE DE CHANTAL (Lincoln)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 7.3029522599083645,
+    "rn_hprd": 1.8680723728560849,
+    "aide_hprd": 3.6619768465652136,
+    "residents": 111.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285019",
+   "type": "NursingHome",
+   "label": "DOUGLAS COUNTY HEALTH CENTER (Omaha)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.532350940239139,
+    "rn_hprd": 0.8820121909867781,
+    "aide_hprd": 2.803495925034934,
+    "residents": 238.1,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285036",
+   "type": "NursingHome",
+   "label": "EASTMONT (Lincoln)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285049",
+   "type": "NursingHome",
+   "label": "EMERALD NURSING & REHAB BROOKSIDE LLC (Lincoln)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.789178264585374,
+    "rn_hprd": 0.5873933542882802,
+    "aide_hprd": 2.370565783137102,
+    "residents": 143.7,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285054",
+   "type": "NursingHome",
+   "label": "THE BANYAN AT MONTCLAIR (Omaha)",
+   "values": {
+    "days_rn_under_8h": 1,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 1,
+    "total_nurse_hprd": 3.1161589678816908,
+    "rn_hprd": 0.6925319869687238,
+    "aide_hprd": 1.982416351949136,
+    "residents": 131.1,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285055",
+   "type": "NursingHome",
+   "label": "FALLS CITY NURSING AND REHABILITATION CENTER (Falls City)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 2,
+    "total_nurse_hprd": 3.2483294110438403,
+    "rn_hprd": 0.567082352848614,
+    "aide_hprd": 1.789423527437098,
+    "residents": 27.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285057",
+   "type": "NursingHome",
+   "label": "EVENTIDE LINCOLN CARE CENTER (Lincoln)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 5.9503369573246045,
+    "rn_hprd": 0.8096754115369567,
+    "aide_hprd": 3.964756975109673,
+    "residents": 181.9,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285058",
+   "type": "NursingHome",
+   "label": "EMERALD NURSING & REHABILITATION MERCY (Omaha)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.119373202892841,
+    "rn_hprd": 0.7616258350254584,
+    "aide_hprd": 2.3189595928246756,
+    "residents": 101.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285059",
+   "type": "NursingHome",
+   "label": "ROSE BLUMKIN JEWISH HOME (Omaha)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 5.076785078741291,
+    "rn_hprd": 0.872058517631443,
+    "aide_hprd": 3.174413085897307,
+    "residents": 92.6,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285062",
+   "type": "NursingHome",
+   "label": "MIDWEST COVENANT HOME (Stromsburg)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285063",
+   "type": "NursingHome",
+   "label": "HIGHLAND PARK CARE CENTER (Alliance)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.5812842759001615,
+    "rn_hprd": 0.34567224197961816,
+    "aide_hprd": 2.805692302742132,
+    "residents": 48.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285065",
+   "type": "NursingHome",
+   "label": "GOLD CREST RETIREMENT CENTER (Adams)",
+   "values": {
+    "days_rn_under_8h": 8,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 2,
+    "total_nurse_hprd": 3.412299394423579,
+    "rn_hprd": 0.3111265421281626,
+    "aide_hprd": 2.491581796128073,
+    "residents": 41.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285066",
+   "type": "NursingHome",
+   "label": "AMBASSADOR HEALTH OF LINCOLN (Lincoln)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 5.279210093047421,
+    "rn_hprd": 1.0597516319969311,
+    "aide_hprd": 2.765313511950962,
+    "residents": 79.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285067",
+   "type": "NursingHome",
+   "label": "HOLDREGE MEMORIAL HOMES, INC (Holdrege)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.6536511156186613,
+    "rn_hprd": 0.5365111561866126,
+    "aide_hprd": 2.5449290060851926,
+    "residents": 79.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285071",
+   "type": "NursingHome",
+   "label": "HERITAGE ESTATES (Gering)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 5.331636303921224,
+    "rn_hprd": 1.1054479943683135,
+    "aide_hprd": 3.708640855283744,
+    "residents": 85.0,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285072",
+   "type": "NursingHome",
+   "label": "GOOD SAMARITAN SOCIETY - HASTINGS VILLAGE (Hastings)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.5118641439205955,
+    "rn_hprd": 0.7558157568238213,
+    "aide_hprd": 2.187965260545906,
+    "residents": 104.0,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285073",
+   "type": "NursingHome",
+   "label": "PARK VIEW HAVEN NURSING HOME (Coleridge)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 2.8183434959349594,
+    "rn_hprd": 0.5716463414634146,
+    "aide_hprd": 1.8343495934959348,
+    "residents": 31.7,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285074",
+   "type": "NursingHome",
+   "label": "BROOKESTONE OF DAVID CITY (David City)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.6236819168009182,
+    "rn_hprd": 0.35988326875152293,
+    "aide_hprd": 2.399771415769822,
+    "residents": 66.3,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285076",
+   "type": "NursingHome",
+   "label": "ADEPT NURSING & REHAB OF SOUTH SIOUX CITY (South Sioux City)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.024051137404008,
+    "rn_hprd": 0.7407670454545454,
+    "aide_hprd": 2.6102727283130993,
+    "residents": 56.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285078",
+   "type": "NursingHome",
+   "label": "ST. JOSEPH VILLA NURSING CENTER (Omaha)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285080",
+   "type": "NursingHome",
+   "label": "HILLCREST NURSING HOME (McCook)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.234986171473726,
+    "rn_hprd": 0.5846503358356381,
+    "aide_hprd": 3.2921770051363097,
+    "residents": 81.6,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285081",
+   "type": "NursingHome",
+   "label": "CHI HEALTH ST. FRANCIS (Grand Island)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 6.8805114638447975,
+    "rn_hprd": 2.484567901234568,
+    "aide_hprd": 3.5974426807760143,
+    "residents": 18.3,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285082",
+   "type": "NursingHome",
+   "label": "CONTINENTAL SPRINGS, LLC (South Sioux City)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 2.91004307115995,
+    "rn_hprd": 0.7382646196805513,
+    "aide_hprd": 1.7300615284259502,
+    "residents": 52.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285083",
+   "type": "NursingHome",
+   "label": "LINDEN COURT (North Platte)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.881810694298074,
+    "rn_hprd": 0.7880736455203409,
+    "aide_hprd": 3.193478378230888,
+    "residents": 106.0,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285085",
+   "type": "NursingHome",
+   "label": "NEWPORT HOUSE (Omaha)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.463049595921884,
+    "rn_hprd": 1.2839129328263872,
+    "aide_hprd": 2.5832490141753555,
+    "residents": 132.6,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285087",
+   "type": "NursingHome",
+   "label": "TIFFANY SQUARE (Grand Island)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.856669186637169,
+    "rn_hprd": 0.49729039683574583,
+    "aide_hprd": 3.7427400757626788,
+    "residents": 84.6,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285088",
+   "type": "NursingHome",
+   "label": "ACCURA HEALTHCARE OF HARTINGTON (Hartington)",
+   "values": {
+    "days_rn_under_8h": 3,
+    "days_licensed_under_24h": 1,
+    "days_without_rn_in_quarter": 1,
+    "total_nurse_hprd": 3.5321958738504,
+    "rn_hprd": 0.6391340221326376,
+    "aide_hprd": 2.115587621865813,
+    "residents": 33.4,
+    "days_reported": 29,
+    "days_unreported": 2
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285089",
+   "type": "NursingHome",
+   "label": "HERITAGE OF BEL AIR (Norfolk)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.6695324702402425,
+    "rn_hprd": 0.8694396832430048,
+    "aide_hprd": 3.159286220953517,
+    "residents": 90.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285091",
+   "type": "NursingHome",
+   "label": "INDIAN HILLS MANOR (Ogallala)",
+   "values": {
+    "days_rn_under_8h": 1,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.2907491572905054,
+    "rn_hprd": 0.41004885951548525,
+    "aide_hprd": 2.1428175632650768,
+    "residents": 39.6,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285092",
+   "type": "NursingHome",
+   "label": "EMERALD NURSING & REHAB COLUMBUS (Columbus)",
+   "values": {
+    "days_rn_under_8h": 6,
+    "days_licensed_under_24h": 1,
+    "days_without_rn_in_quarter": 3,
+    "total_nurse_hprd": 3.8077295299867626,
+    "rn_hprd": 0.22824660238936756,
+    "aide_hprd": 2.6251872666118397,
+    "residents": 97.3,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285093",
+   "type": "NursingHome",
+   "label": "EMERALD NURSING & REHAB COZAD (Cozad)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285094",
+   "type": "NursingHome",
+   "label": "ADEPT NURSING & REHAB OF NORTH PLATTE (North Platte)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.354034859723164,
+    "rn_hprd": 0.5075145251062934,
+    "aide_hprd": 1.966714006920181,
+    "residents": 50.0,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285095",
+   "type": "NursingHome",
+   "label": "MONUMENT HEALTHCARE AND NURSING CENTER (Scottsbluff)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285096",
+   "type": "NursingHome",
+   "label": "ACCURA HEALTHCARE OF FRANKLIN (Franklin)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285097",
+   "type": "NursingHome",
+   "label": "EMERALD NURSING & REHAB OMAHA (Omaha)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285098",
+   "type": "NursingHome",
+   "label": "GOOD SAMARITAN SOCIETY - MILLARD (Omaha)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.678354890864996,
+    "rn_hprd": 0.5856911883589329,
+    "aide_hprd": 2.3111358124494745,
+    "residents": 79.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285102",
+   "type": "NursingHome",
+   "label": "STANTON HEALTH CENTER (Stanton)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.34885134196331,
+    "rn_hprd": 0.5551091467268502,
+    "aide_hprd": 3.1185342982999997,
+    "residents": 62.1,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285104",
+   "type": "NursingHome",
+   "label": "PRESTIGE CARE CENTER OF PLATTSMOUTH (Plattsmouth)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285106",
+   "type": "NursingHome",
+   "label": "EMERALD NURSING & REHAB LAKEVIEW (Grand Island)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285108",
+   "type": "NursingHome",
+   "label": "ACCURA HEALTHCARE OF O'NEILL (O' Neill)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285109",
+   "type": "NursingHome",
+   "label": "PRESTIGE CARE CENTER OF NEBRASKA CITY (Nebraska City)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285112",
+   "type": "NursingHome",
+   "label": "GOOD SAMARITAN SOCIETY - AUBURN (Auburn)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.1186023622047245,
+    "rn_hprd": 0.35211614173228345,
+    "aide_hprd": 1.8548228346456692,
+    "residents": 65.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285114",
+   "type": "NursingHome",
+   "label": "FALLS CITY CARE CENTER (Falls City)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 1,
+    "total_nurse_hprd": 3.4118499489605125,
+    "rn_hprd": 0.33698815567911644,
+    "aide_hprd": 2.4249915194524863,
+    "residents": 57.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285115",
+   "type": "NursingHome",
+   "label": "ACCURA HEALTHCARE OF FULLERTON (Fullerton)",
+   "values": {
+    "days_rn_under_8h": 3,
+    "days_licensed_under_24h": 13,
+    "days_without_rn_in_quarter": 3,
+    "total_nurse_hprd": 1.8026662911116365,
+    "rn_hprd": 0.24160886881634755,
+    "aide_hprd": 1.393752134679867,
+    "residents": 62.8,
+    "days_reported": 28,
+    "days_unreported": 3
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285116",
+   "type": "NursingHome",
+   "label": "CLARKSON COMMUNITY CARE CENTER INC (Clarkson)",
+   "values": {
+    "days_rn_under_8h": 5,
+    "days_licensed_under_24h": 6,
+    "days_without_rn_in_quarter": 5,
+    "total_nurse_hprd": 2.7388163261673077,
+    "rn_hprd": 0.6393333337744888,
+    "aide_hprd": 1.2205714264694525,
+    "residents": 24.5,
+    "days_reported": 30,
+    "days_unreported": 1
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285117",
+   "type": "NursingHome",
+   "label": "ARBOR CARE CENTER-VALHAVEN, LLC (Valley)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285118",
+   "type": "NursingHome",
+   "label": "ACCURA HEALTHCARE OF TEKAMAH (Tekamah)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285119",
+   "type": "NursingHome",
+   "label": "DUNKLAU GARDENS (Fremont)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.0301727606448,
+    "rn_hprd": 1.0207970180743622,
+    "aide_hprd": 2.6520455498577427,
+    "residents": 82.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285124",
+   "type": "NursingHome",
+   "label": "ACCURA HEALTHCARE OF NELIGH (Neligh)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285126",
+   "type": "NursingHome",
+   "label": "THE AMBASSADOR NEBRASKA CITY, INC (Nebraska City)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.884847865235455,
+    "rn_hprd": 0.710337302058679,
+    "aide_hprd": 3.2540740613584167,
+    "residents": 48.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285127",
+   "type": "NursingHome",
+   "label": "AMBASSADOR HEALTH OF OMAHA (Omaha)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 5.943477796027316,
+    "rn_hprd": 0.9778626194175938,
+    "aide_hprd": 1.4587395780282881,
+    "residents": 96.7,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285130",
+   "type": "NursingHome",
+   "label": "BEATRICE HEALTH AND REHABILITAION (Beatrice)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.2812375127938425,
+    "rn_hprd": 0.6240621512790896,
+    "aide_hprd": 1.8395282986690678,
+    "residents": 58.1,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285131",
+   "type": "NursingHome",
+   "label": "YORK GENERAL HEARTHSTONE (York)",
+   "values": {
+    "days_rn_under_8h": 3,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 1,
+    "total_nurse_hprd": 3.1704545454545454,
+    "rn_hprd": 0.23826741440377805,
+    "aide_hprd": 2.239079102715466,
+    "residents": 109.3,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285133",
+   "type": "NursingHome",
+   "label": "HILLCREST HEALTH & REHAB (Bellevue)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.202274709366099,
+    "rn_hprd": 0.8896482670873366,
+    "aide_hprd": 2.630919125205592,
+    "residents": 125.6,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285134",
+   "type": "NursingHome",
+   "label": "LIFE CARE CENTER OF ELKHORN (Elkhorn)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.562214416401667,
+    "rn_hprd": 0.6194586976760301,
+    "aide_hprd": 2.02602460639967,
+    "residents": 91.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285135",
+   "type": "NursingHome",
+   "label": "WAYNE COUNTRYVIEW CARE AND REHABILITATION (Wayne)",
+   "values": {
+    "days_rn_under_8h": 3,
+    "days_licensed_under_24h": 11,
+    "days_without_rn_in_quarter": 3,
+    "total_nurse_hprd": 3.096373928167327,
+    "rn_hprd": 0.40974504526658817,
+    "aide_hprd": 2.2828800608461144,
+    "residents": 34.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285137",
+   "type": "NursingHome",
+   "label": "LIFE CARE CENTER OF OMAHA (Omaha)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.6999465938742833,
+    "rn_hprd": 0.3836068679358213,
+    "aide_hprd": 2.1590839870103444,
+    "residents": 84.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285138",
+   "type": "NursingHome",
+   "label": "GOOD SAMARITAN SOCIETY - SYRACUSE (Syracuse)",
+   "values": {
+    "days_rn_under_8h": 1,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.566696252166872,
+    "rn_hprd": 0.4848422087743673,
+    "aide_hprd": 2.6296844181459567,
+    "residents": 65.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285139",
+   "type": "NursingHome",
+   "label": "ACCURA HEALTHCARE OF PIERCE (Pierce)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 2.8822410501778237,
+    "rn_hprd": 0.46895480155944824,
+    "aide_hprd": 1.6759039525033839,
+    "residents": 34.3,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285140",
+   "type": "NursingHome",
+   "label": "ADEPT NURSING & REHAB OF ASHLAND (Ashland)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 2,
+    "total_nurse_hprd": 2.7817711540715613,
+    "rn_hprd": 0.4124228852305246,
+    "aide_hprd": 1.6472587110984385,
+    "residents": 64.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285141",
+   "type": "NursingHome",
+   "label": "ADEPT NURSING & REHAB OF SUTHERLAND (Sutherland)",
+   "values": {
+    "days_rn_under_8h": 6,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 2,
+    "total_nurse_hprd": 3.788351493896396,
+    "rn_hprd": 0.353188090161647,
+    "aide_hprd": 2.7060857023462144,
+    "residents": 44.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285143",
+   "type": "NursingHome",
+   "label": "ADEPT NURSING & REHAB OF WAVERLY (Waverly)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.5361095479365146,
+    "rn_hprd": 0.6228932584269663,
+    "aide_hprd": 2.333511233329773,
+    "residents": 45.9,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285144",
+   "type": "NursingHome",
+   "label": "ADEPT NURSING & REHAB OF BLUE HILL (BLUE HILL)",
+   "values": {
+    "days_rn_under_8h": 4,
+    "days_licensed_under_24h": 1,
+    "days_without_rn_in_quarter": 3,
+    "total_nurse_hprd": 3.340246659266128,
+    "rn_hprd": 0.4172559093228347,
+    "aide_hprd": 2.236515929250531,
+    "residents": 31.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285146",
+   "type": "NursingHome",
+   "label": "ADEPT NURSING & REHAB OF GRETNA (Gretna)",
+   "values": {
+    "days_rn_under_8h": 1,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.220821908153278,
+    "rn_hprd": 0.5913372475262646,
+    "aide_hprd": 1.8031376218453623,
+    "residents": 49.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285147",
+   "type": "NursingHome",
+   "label": "ADEPT NURSING & REHAB OF CENTRAL CITY (Central City)",
+   "values": {
+    "days_rn_under_8h": 1,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.082502721838049,
+    "rn_hprd": 0.4972594575624208,
+    "aide_hprd": 2.133356775850863,
+    "residents": 59.7,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285148",
+   "type": "NursingHome",
+   "label": "GOOD SHEPHERD LUTHERAN HOME (Blair)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.8590615685325265,
+    "rn_hprd": 0.5514267518768392,
+    "aide_hprd": 2.445154984589595,
+    "residents": 76.0,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285149",
+   "type": "NursingHome",
+   "label": "MAPLE CREST HEALTH CENTER (Omaha)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.498493975903615,
+    "rn_hprd": 0.714641173389209,
+    "aide_hprd": 3.140256678889471,
+    "residents": 123.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285150",
+   "type": "NursingHome",
+   "label": "CREST VIEW CARE CENTER (Chadron)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.8237603282140307,
+    "rn_hprd": 0.6819938002539075,
+    "aide_hprd": 2.5295661106582514,
+    "residents": 31.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285151",
+   "type": "NursingHome",
+   "label": "WISNER CARE CENTER (Wisner)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.358380149812734,
+    "rn_hprd": 0.5615636704119851,
+    "aide_hprd": 2.4988295880149813,
+    "residents": 34.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285156",
+   "type": "NursingHome",
+   "label": "GOOD SAMARITAN SOCIETY - BLOOMFIELD (Bloomfield)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 2,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 2.955294705294705,
+    "rn_hprd": 0.8683816183816184,
+    "aide_hprd": 1.7684815184815186,
+    "residents": 32.3,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285160",
+   "type": "NursingHome",
+   "label": "ST. JOSEPH'S REHABILITATION AND CARE CENTER (Norfolk)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.488630061009428,
+    "rn_hprd": 1.187465335551858,
+    "aide_hprd": 2.6146699944536884,
+    "residents": 58.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285163",
+   "type": "NursingHome",
+   "label": "HILLTOP ESTATES (Gothenburg)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.451362276148653,
+    "rn_hprd": 0.7884805409494274,
+    "aide_hprd": 3.0428443072798723,
+    "residents": 43.1,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285164",
+   "type": "NursingHome",
+   "label": "HOLMES LAKE REHABILITATION & CARE CENTER (Lincoln)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285165",
+   "type": "NursingHome",
+   "label": "ACCURA HEALTHCARE OF NORTH PLATTE (North Platte)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 2.893108711072918,
+    "rn_hprd": 0.3582263189899035,
+    "aide_hprd": 1.7468086480336513,
+    "residents": 50.7,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285166",
+   "type": "NursingHome",
+   "label": "ACCURA HEALTHCARE OF KENESAW (Kenesaw)",
+   "values": {
+    "days_rn_under_8h": 1,
+    "days_licensed_under_24h": 3,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 2.809456433987138,
+    "rn_hprd": 0.646954576204006,
+    "aide_hprd": 1.9410126544784807,
+    "residents": 43.3,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285172",
+   "type": "NursingHome",
+   "label": "WILBER CARE CENTER (Wilber)",
+   "values": {
+    "days_rn_under_8h": 1,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.6195219288942506,
+    "rn_hprd": 0.39411686790258604,
+    "aide_hprd": 2.482609572796866,
+    "residents": 48.6,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285173",
+   "type": "NursingHome",
+   "label": "FLORENCE HOME (OMAHA)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.9460429929418863,
+    "rn_hprd": 0.4998151641753609,
+    "aide_hprd": 2.757348161695229,
+    "residents": 85.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285177",
+   "type": "NursingHome",
+   "label": "GOOD SAMARITAN SOCIETY - ATKINSON (Atkinson)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.3347212165097755,
+    "rn_hprd": 0.9321144098479363,
+    "aide_hprd": 1.9266835626357712,
+    "residents": 44.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285178",
+   "type": "NursingHome",
+   "label": "HILLCREST CARE CENTER (LAUREL)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.191515151515151,
+    "rn_hprd": 0.6436363636363637,
+    "aide_hprd": 2.650909090909091,
+    "residents": 26.6,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285180",
+   "type": "NursingHome",
+   "label": "BUTTE SENIOR LIVING (BUTTE)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 10,
+    "days_without_rn_in_quarter": 1,
+    "total_nurse_hprd": 2.889267999645289,
+    "rn_hprd": 0.6514301735001642,
+    "aide_hprd": 1.938738728428746,
+    "residents": 28.6,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285183",
+   "type": "NursingHome",
+   "label": "COLONIAL MANOR OF RANDOLPH (Randolph)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 2,
+    "total_nurse_hprd": 3.166287552901092,
+    "rn_hprd": 0.731587979670758,
+    "aide_hprd": 1.7642596637742203,
+    "residents": 30.1,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285185",
+   "type": "NursingHome",
+   "label": "GOOD SAMARITAN SOCIETY - COLONIAL VILLA (Alma)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.6269607843137255,
+    "rn_hprd": 0.6654411764705882,
+    "aide_hprd": 2.474754901960784,
+    "residents": 32.9,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285187",
+   "type": "NursingHome",
+   "label": "GOOD SAMARITAN SOCIETY - SUPERIOR (Superior)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.180573047858942,
+    "rn_hprd": 0.6719143576826196,
+    "aide_hprd": 2.3225755667506296,
+    "residents": 51.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285189",
+   "type": "NursingHome",
+   "label": "GOOD SAMARITAN SOCIETY - ST JOHN'S (Kearney)",
+   "values": {
+    "days_rn_under_8h": 1,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.021114864864865,
+    "rn_hprd": 0.3932432432432432,
+    "aide_hprd": 2.373141891891892,
+    "residents": 47.7,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285190",
+   "type": "NursingHome",
+   "label": "ALPINE VILLAGE RETIREMENT CENTER (Verdigre)",
+   "values": {
+    "days_rn_under_8h": 1,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 1,
+    "total_nurse_hprd": 3.35677953623936,
+    "rn_hprd": 0.42663656884875845,
+    "aide_hprd": 2.325116630422163,
+    "residents": 42.9,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285192",
+   "type": "NursingHome",
+   "label": "GOOD SAMARITAN SOCIETY - ST LUKE'S VILLAGE (Kearney)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 1,
+    "total_nurse_hprd": 3.0273333333333334,
+    "rn_hprd": 0.532,
+    "aide_hprd": 1.9245,
+    "residents": 48.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285193",
+   "type": "NursingHome",
+   "label": "GOOD SAMARITAN SOCIETY - OSCEOLA (Osceola)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.4609375,
+    "rn_hprd": 0.625,
+    "aide_hprd": 2.126953125,
+    "residents": 37.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285197",
+   "type": "NursingHome",
+   "label": "GOOD SAMARITAN SOCIETY - ALBION (Albion)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.507552492336964,
+    "rn_hprd": 0.6469881878750218,
+    "aide_hprd": 2.393044619422572,
+    "residents": 49.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285200",
+   "type": "NursingHome",
+   "label": "CALLAWAY GOOD LIFE CENTER, INC (CALLAWAY)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.206073752711497,
+    "rn_hprd": 0.5081344902386117,
+    "aide_hprd": 2.7296637744034706,
+    "residents": 29.7,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285201",
+   "type": "NursingHome",
+   "label": "CLOVERLODGE CARE CENTER (St Edward)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.6118072406134196,
+    "rn_hprd": 0.6176737704908991,
+    "aide_hprd": 2.1663670269176847,
+    "residents": 34.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285203",
+   "type": "NursingHome",
+   "label": "GOOD SAMARITAN SOCIETY - BEATRICE (Beatrice)",
+   "values": {
+    "days_rn_under_8h": 1,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.3047218401678675,
+    "rn_hprd": 0.4259862079839597,
+    "aide_hprd": 1.195632183908046,
+    "residents": 70.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285204",
+   "type": "NursingHome",
+   "label": "COLONIAL HAVEN (BEEMER)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 1,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.452481658795741,
+    "rn_hprd": 0.7726387448335817,
+    "aide_hprd": 3.0805549521720845,
+    "residents": 30.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285206",
+   "type": "NursingHome",
+   "label": "FAIRVIEW MANOR (Fairmont)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.97612958226769,
+    "rn_hprd": 0.5419863597612958,
+    "aide_hprd": 2.405157715260017,
+    "residents": 37.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285207",
+   "type": "NursingHome",
+   "label": "ARBOR CARE CENTERS-COUNTRYSIDE LLC (Madison)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.384803921568627,
+    "rn_hprd": 0.6726006191950464,
+    "aide_hprd": 3.1029411764705883,
+    "residents": 62.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285208",
+   "type": "NursingHome",
+   "label": "COMMUNITY PRIDE CARE CENTER (Battle Creek)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 2,
+    "total_nurse_hprd": 3.754163505286092,
+    "rn_hprd": 0.8822994669308819,
+    "aide_hprd": 2.261390394614433,
+    "residents": 42.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285209",
+   "type": "NursingHome",
+   "label": "WAKEFIELD HEALTH CARE CENTER (Wakefield)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 2,
+    "total_nurse_hprd": 5.181479452734124,
+    "rn_hprd": 1.0393561650628913,
+    "aide_hprd": 2.9284246575342467,
+    "residents": 23.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285210",
+   "type": "NursingHome",
+   "label": "CROWELL MEMORIAL HOME (Blair)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.0557045343734766,
+    "rn_hprd": 0.5335202340321794,
+    "aide_hprd": 2.758288639687957,
+    "residents": 66.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285212",
+   "type": "NursingHome",
+   "label": "PIONEER MANOR NURSING HOME (Hay Springs)",
+   "values": {
+    "days_rn_under_8h": 8,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 7,
+    "total_nurse_hprd": 3.824419938627087,
+    "rn_hprd": 0.3290106742831736,
+    "aide_hprd": 2.4434021321904194,
+    "residents": 45.3,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285213",
+   "type": "NursingHome",
+   "label": "MID-NEBRASKA LUTHERAN HOME (Newman Grove)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.958978834564574,
+    "rn_hprd": 0.7237626481955493,
+    "aide_hprd": 2.642134305853962,
+    "residents": 35.1,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285215",
+   "type": "NursingHome",
+   "label": "ELWOOD CARE CENTER (Elwood)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 5.01489696040298,
+    "rn_hprd": 0.8772727272727273,
+    "aide_hprd": 3.1806545384724934,
+    "residents": 26.6,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285216",
+   "type": "NursingHome",
+   "label": "MT CARMEL HOME - KEENS MEMORIAL (Kearney)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.9257751773056997,
+    "rn_hprd": 0.3915081966677092,
+    "aide_hprd": 2.883213116469372,
+    "residents": 68.9,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285218",
+   "type": "NursingHome",
+   "label": "THE CYPRESS AT MIDTOWN (Omaha)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 1,
+    "total_nurse_hprd": 3.541501292248362,
+    "rn_hprd": 0.4840335053266938,
+    "aide_hprd": 2.2116172651654664,
+    "residents": 50.1,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285219",
+   "type": "NursingHome",
+   "label": "SOUTHLAKE VILLAGE REHABILITATION & CARE CENTER (Lincoln)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 5.095774534858014,
+    "rn_hprd": 0.9005352910340688,
+    "aide_hprd": 3.2615251358616293,
+    "residents": 107.9,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285220",
+   "type": "NursingHome",
+   "label": "WAUNETA CARE AND THERAPY CENTER (Wauneta)",
+   "values": {
+    "days_rn_under_8h": 4,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 2,
+    "total_nurse_hprd": 3.6052756653992395,
+    "rn_hprd": 0.5116444866920152,
+    "aide_hprd": 2.5411121673003803,
+    "residents": 33.9,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285221",
+   "type": "NursingHome",
+   "label": "ADEPT NURSING & REHAB OF GRAND ISLAND (Grand Island)",
+   "values": {
+    "days_rn_under_8h": 1,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.1753152279340444,
+    "rn_hprd": 0.37742483026188167,
+    "aide_hprd": 2.307225994180407,
+    "residents": 66.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285222",
+   "type": "NursingHome",
+   "label": "HERITAGE OF EMERSON (Emerson)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.763444571115229,
+    "rn_hprd": 0.9720990307492768,
+    "aide_hprd": 2.4406351011458973,
+    "residents": 30.0,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285224",
+   "type": "NursingHome",
+   "label": "CASCADES AT SKYVIEW (Bridgeport)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 2,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.1220231249153265,
+    "rn_hprd": 0.6427745664739885,
+    "aide_hprd": 2.7512138763604135,
+    "residents": 27.9,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285225",
+   "type": "NursingHome",
+   "label": "HERITAGE OF WEBSTER COUNTY (Red Cloud)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.297069158671469,
+    "rn_hprd": 0.9355451380102464,
+    "aide_hprd": 2.7288628233834697,
+    "residents": 27.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285226",
+   "type": "NursingHome",
+   "label": "BROOKEFIELD PARK (ST Paul)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.656786312700974,
+    "rn_hprd": 0.48843304810679367,
+    "aide_hprd": 3.3143589682728476,
+    "residents": 56.6,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285228",
+   "type": "NursingHome",
+   "label": "ROSE LANE HOME (LOUP CITY)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.475778356261317,
+    "rn_hprd": 0.7521588712224282,
+    "aide_hprd": 3.328629094770824,
+    "residents": 50.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285230",
+   "type": "NursingHome",
+   "label": "HERITAGE CROSSINGS (Geneva)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.8809535278206355,
+    "rn_hprd": 0.812426073621682,
+    "aide_hprd": 2.0766203885489944,
+    "residents": 53.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285231",
+   "type": "NursingHome",
+   "label": "SOUTH HAVEN LIVING CENTER (Wahoo)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.0813039323405675,
+    "rn_hprd": 0.9873461867823745,
+    "aide_hprd": 2.4603535216045116,
+    "residents": 70.3,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285232",
+   "type": "NursingHome",
+   "label": "MILFORD MEADOWS CARE CENTER (Milford)",
+   "values": {
+    "days_rn_under_8h": 6,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 6,
+    "total_nurse_hprd": 3.4692754097396894,
+    "rn_hprd": 0.10810981110127309,
+    "aide_hprd": 2.5256795496901985,
+    "residents": 71.7,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285235",
+   "type": "NursingHome",
+   "label": "NYE POINTE HEALTH & REHAB CTR (Fremont)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.483870967741935,
+    "rn_hprd": 0.7833191850594228,
+    "aide_hprd": 3.5101867572156196,
+    "residents": 38.0,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285238",
+   "type": "NursingHome",
+   "label": "KEYSTONE RIDGE POST ACUTE NURSING AND REHABILITATI (Omaha)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 1,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.4361490560614545,
+    "rn_hprd": 0.6895590077275815,
+    "aide_hprd": 2.337409924424213,
+    "residents": 51.9,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285239",
+   "type": "NursingHome",
+   "label": "EMERALD NURSING & REHAB LEGACY POINTE LLC (Omaha)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.531077694235589,
+    "rn_hprd": 0.8061403508771929,
+    "aide_hprd": 2.5196741854636593,
+    "residents": 64.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285240",
+   "type": "NursingHome",
+   "label": "OMAHA NURSING AND REHABILITATION CENTER (Omaha)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.201845814687292,
+    "rn_hprd": 0.6392182387435863,
+    "aide_hprd": 2.033447336037436,
+    "residents": 59.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285241",
+   "type": "NursingHome",
+   "label": "SARAH ANN HESTER MEMORIAL HOME (Benkelman)",
+   "values": {
+    "days_rn_under_8h": 7,
+    "days_licensed_under_24h": 1,
+    "days_without_rn_in_quarter": 2,
+    "total_nurse_hprd": 3.5618378386626373,
+    "rn_hprd": 0.3575675675675676,
+    "aide_hprd": 2.3742702710950696,
+    "residents": 29.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285242",
+   "type": "NursingHome",
+   "label": "BROOKESTONE VILLAGE (Omaha)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 5.3884158485006575,
+    "rn_hprd": 1.1849034698882905,
+    "aide_hprd": 3.534423267251194,
+    "residents": 130.3,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285245",
+   "type": "NursingHome",
+   "label": "PARKSIDE MANOR (Stuart)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.150888623784503,
+    "rn_hprd": 0.955568720379147,
+    "aide_hprd": 2.4853080550641247,
+    "residents": 27.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285246",
+   "type": "NursingHome",
+   "label": "CHRISTIAN HOMES HEALTH CARE CENTER (Holdrege)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.329394069617534,
+    "rn_hprd": 0.6229050279329609,
+    "aide_hprd": 2.9950580146110872,
+    "residents": 75.1,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285248",
+   "type": "NursingHome",
+   "label": "COLONIAL ACRES OF HUMBOLDT (Humboldt)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.022146829508568,
+    "rn_hprd": 0.6663070106930674,
+    "aide_hprd": 2.3056618341216786,
+    "residents": 29.0,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285249",
+   "type": "NursingHome",
+   "label": "ST. JOSEPH'S VILLA, INC. (David City)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.84856951014645,
+    "rn_hprd": 0.5095808398144609,
+    "aide_hprd": 2.614471041513774,
+    "residents": 48.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285250",
+   "type": "NursingHome",
+   "label": "PONDEROSA VILLA (Crawford)",
+   "values": {
+    "days_rn_under_8h": 3,
+    "days_licensed_under_24h": 3,
+    "days_without_rn_in_quarter": 1,
+    "total_nurse_hprd": 4.05326086671456,
+    "rn_hprd": 0.6775931680794829,
+    "aide_hprd": 2.5866614928156695,
+    "residents": 20.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285252",
+   "type": "NursingHome",
+   "label": "IMPERIAL MANOR NURSING HOME (Imperial)",
+   "values": {
+    "days_rn_under_8h": 7,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 1,
+    "total_nurse_hprd": 3.997075749266525,
+    "rn_hprd": 0.3487535953978907,
+    "aide_hprd": 2.930345165878106,
+    "residents": 33.6,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285254",
+   "type": "NursingHome",
+   "label": "MOTHER HULL HOME (Kearney)",
+   "values": {
+    "days_rn_under_8h": 1,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 1,
+    "total_nurse_hprd": 4.242773158557879,
+    "rn_hprd": 0.485884984080403,
+    "aide_hprd": 2.7399616564424654,
+    "residents": 50.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285256",
+   "type": "NursingHome",
+   "label": "KIMBALL COUNTY MANOR (Kimball)",
+   "values": {
+    "days_rn_under_8h": 1,
+    "days_licensed_under_24h": 3,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.724983996582031,
+    "rn_hprd": 0.6620639991760254,
+    "aide_hprd": 2.814519997406006,
+    "residents": 40.3,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285257",
+   "type": "NursingHome",
+   "label": "COMMUNITY MEMORIAL HEALTH CENTER (Burwell)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 1,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.332071948575624,
+    "rn_hprd": 0.23384410393071287,
+    "aide_hprd": 3.462485006536983,
+    "residents": 48.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285258",
+   "type": "NursingHome",
+   "label": "BERTRAND NURSING HOME (Bertrand)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 2,
+    "total_nurse_hprd": 5.002400810385049,
+    "rn_hprd": 0.7966597025479056,
+    "aide_hprd": 3.055427957427278,
+    "residents": 15.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285259",
+   "type": "NursingHome",
+   "label": "BLUE VALLEY LUTHERAN NURSING HOME (Hebron)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285260",
+   "type": "NursingHome",
+   "label": "CHIMNEY ROCK VILLA (Bayard)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.713393626184324,
+    "rn_hprd": 0.6412575366063739,
+    "aide_hprd": 2.5785960378983637,
+    "residents": 37.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285261",
+   "type": "NursingHome",
+   "label": "PARKVIEW HAVEN NURSING HOME (Deshler)",
+   "values": {
+    "days_rn_under_8h": 7,
+    "days_licensed_under_24h": 11,
+    "days_without_rn_in_quarter": 5,
+    "total_nurse_hprd": 3.3920389461626574,
+    "rn_hprd": 0.42783505154639173,
+    "aide_hprd": 2.595360824742268,
+    "residents": 28.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285262",
+   "type": "NursingHome",
+   "label": "HERITAGE CARE CENTER (Fairbury)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.458053971951919,
+    "rn_hprd": 0.45153272083514595,
+    "aide_hprd": 2.759190588128827,
+    "residents": 56.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285263",
+   "type": "NursingHome",
+   "label": "WESTFIELD QUALITY CARE OF AURORA (Aurora)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 2,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.6858175255311107,
+    "rn_hprd": 0.5925474261634502,
+    "aide_hprd": 2.77710027100271,
+    "residents": 35.7,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285266",
+   "type": "NursingHome",
+   "label": "GATEWAY VISTA (Lincoln)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 5.8215358215358215,
+    "rn_hprd": 1.3750536250536252,
+    "aide_hprd": 3.465787215787216,
+    "residents": 75.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285267",
+   "type": "NursingHome",
+   "label": "NYE SUMMIT (Louisville)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.083829365079365,
+    "rn_hprd": 0.41980820105820105,
+    "aide_hprd": 2.1684854497354498,
+    "residents": 48.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285268",
+   "type": "NursingHome",
+   "label": "BROOKESTONE OF PAPILLION (Papillion)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.78001133594866,
+    "rn_hprd": 1.0245976565151698,
+    "aide_hprd": 2.7955421300757637,
+    "residents": 85.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285269",
+   "type": "NursingHome",
+   "label": "BEAVER CITY MANOR (Beaver City)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285270",
+   "type": "NursingHome",
+   "label": "BETHANY HOME, INC (Minden)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.020939597827476,
+    "rn_hprd": 0.7854026845637584,
+    "aide_hprd": 2.6184228193039862,
+    "residents": 48.1,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285271",
+   "type": "NursingHome",
+   "label": "NORTHFIELD RETIREMENT COMMUNITIES CARE CENTER (Scottsbluff)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.741978504338246,
+    "rn_hprd": 0.6546523399961884,
+    "aide_hprd": 2.952616944777227,
+    "residents": 51.0,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285272",
+   "type": "NursingHome",
+   "label": "HARVARD REST HAVEN (Harvard)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 1,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.894722547835133,
+    "rn_hprd": 0.4793388429752066,
+    "aide_hprd": 3.644332939787485,
+    "residents": 27.3,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285273",
+   "type": "NursingHome",
+   "label": "PLAINVIEW MANOR (Plainview)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 2,
+    "total_nurse_hprd": 3.8599582385419553,
+    "rn_hprd": 0.6665657604412645,
+    "aide_hprd": 2.1763987337124373,
+    "residents": 30.9,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285275",
+   "type": "NursingHome",
+   "label": "EMERALD NURSING & REHAB LANCASTER LLC (Lincoln)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.596622192704098,
+    "rn_hprd": 0.6211669657154015,
+    "aide_hprd": 2.489033219935914,
+    "residents": 217.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285276",
+   "type": "NursingHome",
+   "label": "BROOKESTONE MEADOWS REHABILITATION AND CARE CENTER (Elkhorn)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 6.055940821220653,
+    "rn_hprd": 1.5840972042782877,
+    "aide_hprd": 3.5789601007234197,
+    "residents": 118.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285277",
+   "type": "NursingHome",
+   "label": "SUTTON COMMUNITY HOME, INC. (Sutton)",
+   "values": {
+    "days_rn_under_8h": 3,
+    "days_licensed_under_24h": 2,
+    "days_without_rn_in_quarter": 1,
+    "total_nurse_hprd": 4.356569544369022,
+    "rn_hprd": 0.648013244085754,
+    "aide_hprd": 2.634754975426276,
+    "residents": 24.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285278",
+   "type": "NursingHome",
+   "label": "NYE LEGACY HEALTH & REHABILITATION CENTER (Fremont)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.833769123146364,
+    "rn_hprd": 1.1678268422006068,
+    "aide_hprd": 3.301721140472879,
+    "residents": 92.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285279",
+   "type": "NursingHome",
+   "label": "RIDGEWOOD REHABILITATION & CARE CENTER (Seward)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.6510680904906225,
+    "rn_hprd": 0.7309256786232691,
+    "aide_hprd": 3.1562127324279596,
+    "residents": 72.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285280",
+   "type": "NursingHome",
+   "label": "THE LIGHTHOUSE AT LAKESIDE VILLAGE (Omaha)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 5.12425740969063,
+    "rn_hprd": 1.2954455385113706,
+    "aide_hprd": 3.085089103774269,
+    "residents": 32.6,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285281",
+   "type": "NursingHome",
+   "label": "OAKLAND HEIGHTS (Oakland)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.5206502636203867,
+    "rn_hprd": 0.5221880492091389,
+    "aide_hprd": 2.4731985940246046,
+    "residents": 36.7,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285282",
+   "type": "NursingHome",
+   "label": "JEFFERSON COMMUNITY HEALTH & LIFE GARDENSIDE (Fairbury)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 1,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.8029069738134593,
+    "rn_hprd": 0.6348837186331765,
+    "aide_hprd": 2.451744184937588,
+    "residents": 38.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285283",
+   "type": "NursingHome",
+   "label": "EVENTIDE CRETE (Crete)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.813189427337982,
+    "rn_hprd": 1.3247400909793534,
+    "aide_hprd": 2.80789426160804,
+    "residents": 36.6,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285284",
+   "type": "NursingHome",
+   "label": "AVERA CREIGHTON CARE CENTRE (Creighton)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.84463218329861,
+    "rn_hprd": 0.6726875449303545,
+    "aide_hprd": 2.514420971241817,
+    "residents": 44.3,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285285",
+   "type": "NursingHome",
+   "label": "GOOD SAMARITAN SOCIETY - GRAND ISLAND VILLAGE (Grand Island)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.9542871900826446,
+    "rn_hprd": 0.5901342975206612,
+    "aide_hprd": 2.658961776859504,
+    "residents": 62.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285287",
+   "type": "NursingHome",
+   "label": "MITCHELL CARE CENTER (Mitchell)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285288",
+   "type": "NursingHome",
+   "label": "EVENTIDE WILLIAMSBURG (Lincoln)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 6.704543478592583,
+    "rn_hprd": 1.369913043146548,
+    "aide_hprd": 4.086413035185441,
+    "residents": 14.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285289",
+   "type": "NursingHome",
+   "label": "OLD MILL REHABILITATION (Omaha)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.919709483417896,
+    "rn_hprd": 1.2148394555491409,
+    "aide_hprd": 2.0734938816922157,
+    "residents": 42.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285291",
+   "type": "NursingHome",
+   "label": "BROOKESTONE ACRES (Columbus)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 5.346260437632716,
+    "rn_hprd": 0.8000232532412507,
+    "aide_hprd": 3.685139504366143,
+    "residents": 69.4,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285292",
+   "type": "NursingHome",
+   "label": "LITZENBERG MEMORIAL COUNTY HOSPITAL (Central City)",
+   "values": {
+    "days_rn_under_8h": 5,
+    "days_licensed_under_24h": 1,
+    "days_without_rn_in_quarter": 5,
+    "total_nurse_hprd": 3.153411771396902,
+    "rn_hprd": 0.32840641705110113,
+    "aide_hprd": 2.1486203285462078,
+    "residents": 30.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285293",
+   "type": "NursingHome",
+   "label": "HILLCREST COUNTRY ESTATES-COTTAGES (Papillion)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285294",
+   "type": "NursingHome",
+   "label": "ARBOR CARE CENTERS - ORD, LLC (Ord)",
+   "values": {
+    "days_rn_under_8h": 11,
+    "days_licensed_under_24h": 1,
+    "days_without_rn_in_quarter": 6,
+    "total_nurse_hprd": 3.5224206336433928,
+    "rn_hprd": 0.34533730314837563,
+    "aide_hprd": 2.3485119002205983,
+    "residents": 32.5,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285296",
+   "type": "NursingHome",
+   "label": "SAUNDERS MEDICAL CENTER (Wahoo)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285297",
+   "type": "NursingHome",
+   "label": "BROOKESTONE VIEW (Broken Bow)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 5.840590862262901,
+    "rn_hprd": 0.9735007409331013,
+    "aide_hprd": 3.2749926286750917,
+    "residents": 43.7,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285298",
+   "type": "NursingHome",
+   "label": "SANDHILLS CARE CENTER (Ainsworth)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 3,
+    "days_without_rn_in_quarter": 2,
+    "total_nurse_hprd": 7.527861445783133,
+    "rn_hprd": 1.1875,
+    "aide_hprd": 4.429969879518072,
+    "residents": 10.7,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-285299",
+   "type": "NursingHome",
+   "label": "OLD CHENEY REHABILITATION (Lincoln)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285300",
+   "type": "NursingHome",
+   "label": "HILLCREST FIRETHORN (Lincoln)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285302",
+   "type": "NursingHome",
+   "label": "HILLCREST MILLARD LLC (Omaha)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285303",
+   "type": "NursingHome",
+   "label": "ST JOSEPH'S HILLSIDE VILLA (West Point)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285305",
+   "type": "NursingHome",
+   "label": "BROOKESTONE GARDENS (Kearney)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285306",
+   "type": "NursingHome",
+   "label": "HEMINGFORD CARE CENTER (Hemingford)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-285307",
+   "type": "NursingHome",
+   "label": "EVENTIDE PRAIRIE COMMONS CARE CENTER (Grand Island)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-28a065",
+   "type": "NursingHome",
+   "label": "CARL T CURTIS HEALTH EDUCATION CENTER NURSING HOME (Macy)",
+   "values": {
+    "days_rn_under_8h": 7,
+    "days_licensed_under_24h": 5,
+    "days_without_rn_in_quarter": 4,
+    "total_nurse_hprd": 6.916921379264265,
+    "rn_hprd": 0.8605676873802618,
+    "aide_hprd": 4.648318752971799,
+    "residents": 14.8,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-28e173",
+   "type": "NursingHome",
+   "label": "LEGACY SQUARE (Henderson)",
+   "values": {
+    "days_rn_under_8h": 1,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.417236954662104,
+    "rn_hprd": 0.7459366980325064,
+    "aide_hprd": 2.9976475620188197,
+    "residents": 37.7,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-28e180",
+   "type": "NursingHome",
+   "label": "GARDEN COUNTY HOSPITAL & NURSING HOME (Oshkosh)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 1,
+    "total_nurse_hprd": 4.339940708302943,
+    "rn_hprd": 0.3108303657205928,
+    "aide_hprd": 2.7813286153447163,
+    "residents": 27.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-28e191",
+   "type": "NursingHome",
+   "label": "MEMORIAL COMMUNITY CARE (Aurora)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 4.492756460454189,
+    "rn_hprd": 0.7276820673453407,
+    "aide_hprd": 2.8149960845732185,
+    "residents": 41.2,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-28e257",
+   "type": "NursingHome",
+   "label": "GORDON COUNTRYSIDE CARE (Gordon)",
+   "values": {
+    "days_rn_under_8h": 8,
+    "days_licensed_under_24h": 7,
+    "days_without_rn_in_quarter": 7,
+    "total_nurse_hprd": 3.718146753177714,
+    "rn_hprd": 0.4357462672896646,
+    "aide_hprd": 2.717375610598284,
+    "residents": 25.9,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-28e271",
+   "type": "NursingHome",
+   "label": "GENOA COMMUNITY HOSPITAL/LTC (Genoa)",
+   "values": {
+    "days_rn_under_8h": 2,
+    "days_licensed_under_24h": 2,
+    "days_without_rn_in_quarter": 1,
+    "total_nurse_hprd": 3.392670157068063,
+    "rn_hprd": 0.4932373472949389,
+    "aide_hprd": 2.354493891797557,
+    "residents": 37.0,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-28e299",
+   "type": "NursingHome",
+   "label": "HILLCREST SHADOW LAKE LLC (Papillion)",
+   "values": {
+    "days_rn_under_8h": 0,
+    "days_licensed_under_24h": 0,
+    "days_without_rn_in_quarter": 0,
+    "total_nurse_hprd": 3.3995746886911564,
+    "rn_hprd": 0.5181535269709544,
+    "aide_hprd": 2.0186721991701244,
+    "residents": 93.3,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-28e300",
+   "type": "NursingHome",
+   "label": "OGLALA SIOUX LAKOTA NURSING HOME (Rushville)",
+   "values": {
+    "days_rn_under_8h": 7,
+    "days_licensed_under_24h": 12,
+    "days_without_rn_in_quarter": 7,
+    "total_nurse_hprd": 8.855338655145045,
+    "rn_hprd": 0.797808764940239,
+    "aide_hprd": 6.56250996988608,
+    "residents": 8.1,
+    "days_reported": 31,
+    "days_unreported": 0
+   },
+   "edges": {}
+  },
+  {
+   "name": "nh-28e302",
+   "type": "NursingHome",
+   "label": "SRMC LONG TERM CARE, LLC DBA POLE CREEK ESTATES (Sidney)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "nh-28e303",
+   "type": "NursingHome",
+   "label": "ROCK COUNTY HOSPITAL LONG TERM CARE (Bassett)",
+   "values": {},
+   "edges": {}
+  },
+  {
+   "name": "ne-nursing-workforce",
+   "type": "Workforce",
+   "label": "Nebraska's nursing home nurses and aides",
+   "values": {},
+   "edges": {
+    "staffs": [
+     "nh-285002",
+     "nh-285004",
+     "nh-285019",
+     "nh-285036",
+     "nh-285049",
+     "nh-285054",
+     "nh-285055",
+     "nh-285057",
+     "nh-285058",
+     "nh-285059",
+     "nh-285062",
+     "nh-285063",
+     "nh-285065",
+     "nh-285066",
+     "nh-285067",
+     "nh-285071",
+     "nh-285072",
+     "nh-285073",
+     "nh-285074",
+     "nh-285076",
+     "nh-285078",
+     "nh-285080",
+     "nh-285081",
+     "nh-285082",
+     "nh-285083",
+     "nh-285085",
+     "nh-285087",
+     "nh-285088",
+     "nh-285089",
+     "nh-285091",
+     "nh-285092",
+     "nh-285093",
+     "nh-285094",
+     "nh-285095",
+     "nh-285096",
+     "nh-285097",
+     "nh-285098",
+     "nh-285102",
+     "nh-285104",
+     "nh-285106",
+     "nh-285108",
+     "nh-285109",
+     "nh-285112",
+     "nh-285114",
+     "nh-285115",
+     "nh-285116",
+     "nh-285117",
+     "nh-285118",
+     "nh-285119",
+     "nh-285124",
+     "nh-285126",
+     "nh-285127",
+     "nh-285130",
+     "nh-285131",
+     "nh-285133",
+     "nh-285134",
+     "nh-285135",
+     "nh-285137",
+     "nh-285138",
+     "nh-285139",
+     "nh-285140",
+     "nh-285141",
+     "nh-285143",
+     "nh-285144",
+     "nh-285146",
+     "nh-285147",
+     "nh-285148",
+     "nh-285149",
+     "nh-285150",
+     "nh-285151",
+     "nh-285156",
+     "nh-285160",
+     "nh-285163",
+     "nh-285164",
+     "nh-285165",
+     "nh-285166",
+     "nh-285172",
+     "nh-285173",
+     "nh-285177",
+     "nh-285178",
+     "nh-285180",
+     "nh-285183",
+     "nh-285185",
+     "nh-285187",
+     "nh-285189",
+     "nh-285190",
+     "nh-285192",
+     "nh-285193",
+     "nh-285197",
+     "nh-285200",
+     "nh-285201",
+     "nh-285203",
+     "nh-285204",
+     "nh-285206",
+     "nh-285207",
+     "nh-285208",
+     "nh-285209",
+     "nh-285210",
+     "nh-285212",
+     "nh-285213",
+     "nh-285215",
+     "nh-285216",
+     "nh-285218",
+     "nh-285219",
+     "nh-285220",
+     "nh-285221",
+     "nh-285222",
+     "nh-285224",
+     "nh-285225",
+     "nh-285226",
+     "nh-285228",
+     "nh-285230",
+     "nh-285231",
+     "nh-285232",
+     "nh-285235",
+     "nh-285238",
+     "nh-285239",
+     "nh-285240",
+     "nh-285241",
+     "nh-285242",
+     "nh-285245",
+     "nh-285246",
+     "nh-285248",
+     "nh-285249",
+     "nh-285250",
+     "nh-285252",
+     "nh-285254",
+     "nh-285256",
+     "nh-285257",
+     "nh-285258",
+     "nh-285259",
+     "nh-285260",
+     "nh-285261",
+     "nh-285262",
+     "nh-285263",
+     "nh-285266",
+     "nh-285267",
+     "nh-285268",
+     "nh-285269",
+     "nh-285270",
+     "nh-285271",
+     "nh-285272",
+     "nh-285273",
+     "nh-285275",
+     "nh-285276",
+     "nh-285277",
+     "nh-285278",
+     "nh-285279",
+     "nh-285280",
+     "nh-285281",
+     "nh-285282",
+     "nh-285283",
+     "nh-285284",
+     "nh-285285",
+     "nh-285287",
+     "nh-285288",
+     "nh-285289",
+     "nh-285291",
+     "nh-285292",
+     "nh-285293",
+     "nh-285294",
+     "nh-285296",
+     "nh-285297",
+     "nh-285298",
+     "nh-285299",
+     "nh-285300",
+     "nh-285302",
+     "nh-285303",
+     "nh-285305",
+     "nh-285306",
+     "nh-285307",
+     "nh-28a065",
+     "nh-28e173",
+     "nh-28e180",
+     "nh-28e191",
+     "nh-28e257",
+     "nh-28e271",
+     "nh-28e299",
+     "nh-28e300",
+     "nh-28e302",
+     "nh-28e303"
+    ]
+   }
+  },
+  {
+   "name": "ev-covid-19",
+   "type": "Event",
+   "label": "COVID-19 national emergency",
+   "values": {
+    "national_emergency": "not_declared"
+   },
+   "edges": {
+    "strains": [
+     "ne-nursing-workforce"
+    ]
+   }
+  }
+ ]
+}

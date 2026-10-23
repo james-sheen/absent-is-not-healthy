@@ -1,0 +1,117 @@
+# The nursing homes case study's model: Nebraska's 181 homes, held
+# each month to the regulation's daily lines, read as the days below them; to CMS's one-star line from July 2018; and
+# to the 2024 rule's three lines only while they stood, from their publication on 10 May 2024 to the court's vacatur
+# on 7 April 2025. Lines from a regulation, a rating and a rule: the daily lines the same in every month, the others
+# read off each home in the months they stood. The cause the rule names, the workforce, is held and never read; the
+# emergency strains it. No lever: no source gives what a decision did to a home's staffing, so a plan has nothing to
+# choose between.
+domain:
+  id: nh-case-study
+  name: Nebraska's nursing homes and their nurse staffing (case study, public data)
+  description: >-
+    The 181 Nebraska nursing homes that reported in 2025, month by month from January 2017 to March 2026, as CMS's
+    Payroll Based Journal counts each day's residents and the hours its nurses and aides were paid to work; the
+    regulation's daily lines (42 CFR 483.35), CMS's one-star line on days without an RN, and the 2024 rule's
+    minimums while they stood; the state's nursing workforce, which no series in hand counts; and the national
+    emergency over COVID-19, declared on 13 March 2020 and terminated on 10 April 2023.
+
+  entity_types: [NursingHome, Workforce, Event]
+  relationship_types: [staffs, strains]
+
+  causal:
+    evidence_severity: [warning, low, medium, high, critical]
+    max_hops: 3
+
+  relationship_rules:
+    # 'Workforce challenges have also contributed to understaffing, nurse burnout, and position turnover'
+    # (fr-2024-08273); the repeal names the shortage of nurses, larger outside the cities (fr-2025-21792).
+    - type: staffs
+      source_type: Workforce
+      target_type: NursingHome
+      edge_direction: causal
+    # '... the COVID-19 PHE exacerbated the problem as many long-term care facilities experienced high worker
+    # turnover' (fr-2024-08273): the emergency acts on the homes through their workforce.
+    - type: strains
+      source_type: Event
+      target_type: Workforce
+      edge_direction: causal
+
+  # WHAT A PLAN PURSUES: the fewest findings afterwards. No action is declared, so no plan is ranked.
+  planning:
+    objective: expected_findings
+    max_depth: 1
+
+  # A case is a home across one line; three clean months close it.
+  cases:
+    severity: warning
+    consecutive_checks: 3
+
+  gaps:
+    min_cycles: 3
+
+  indicators:
+    NursingHome:
+      # THE PROBLEM, the regulation's first daily line: an RN at least 8 consecutive hours a day, 7 days a week
+      # (ecfr-42-483-35-2024), read as the Inspector General read it -- under 7.5 RN hours is below, a half-hour meal
+      # break out of the shift (hhs-oig-oei-04-18-00450). The month's days with residents below it; one is across.
+      # A one-day window keeps BOUNDEDNESS from projecting a trend toward it: the month is in the reading.
+      - name: days_rn_under_8h
+        type: NUMERIC
+        axioms: [BOUNDEDNESS]
+        window: 1d
+        warning: 1
+      # The second: licensed nurses around the clock, under 22.5 licensed nurse hours a day.
+      - name: days_licensed_under_24h
+        type: NUMERIC
+        axioms: [BOUNDEDNESS]
+        window: 1d
+        warning: 1
+      # CMS's one-star line: the days of the quarter so far with residents and no RN hours, against the days that
+      # bring one star for staffing -- 7 from July 2018 (cms-qso-18-17-nh), 4 from April 2019 (cms-qso-19-08-nh),
+      # read off the home. Before July 2018 the line is not there to check against.
+      - name: days_without_rn_in_quarter
+        type: NUMERIC
+        axioms: [BOUNDEDNESS]
+        window: 1d
+        warning: {from_property: one_star_days}
+      - {name: one_star_days, type: NUMERIC, axioms: []}
+      # The 2024 rule's three lines, hours per resident day over the month (fr-2024-08273), read off the home in the
+      # months they stood -- May 2024 to March 2025. A reading on a line is across it.
+      - name: total_nurse_hprd
+        type: NUMERIC
+        axioms: [BOUNDEDNESS]
+        window: 1d
+        lower_warning: {from_property: min_total_hprd}
+      - name: rn_hprd
+        type: NUMERIC
+        axioms: [BOUNDEDNESS]
+        window: 1d
+        lower_warning: {from_property: min_rn_hprd}
+      - name: aide_hprd
+        type: NUMERIC
+        axioms: [BOUNDEDNESS]
+        window: 1d
+        lower_warning: {from_property: min_aide_hprd}
+      - {name: min_total_hprd, type: NUMERIC, axioms: []}
+      - {name: min_rn_hprd, type: NUMERIC, axioms: []}
+      - {name: min_aide_hprd, type: NUMERIC, axioms: []}
+      - {name: residents, type: NUMERIC, axioms: [], window: 10y}
+      - {name: days_reported, type: NUMERIC, axioms: []}
+      - {name: days_unreported, type: NUMERIC, axioms: []}
+
+    Workforce:
+      # The nurses and aides the homes can hire, against their own history; held and never read: no series in the
+      # corpus counts Nebraska's nursing home workforce by month.
+      - name: nurses_available
+        type: NUMERIC
+        axioms: [HOMEOSTASIS]
+        direction: lower
+        window: 10y
+
+    Event:
+      - name: national_emergency
+        type: STATE
+        axioms: [STABILITY]
+        normal: [not_declared]
+        bad: [declared]
+        window: 10y

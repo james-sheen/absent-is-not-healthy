@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+.venv/
+venv/
+
+# A case study's run writes its results beside it; the shipped copy is `results.json`.
+out/
+
+# Site-specific hygiene vocabulary. Untracked on purpose: a rule that forbids a private name must spell that name
+# out, so committing it here would publish exactly what it exists to protect. See tools/hygiene_check.py.
+.hygiene-local.json
