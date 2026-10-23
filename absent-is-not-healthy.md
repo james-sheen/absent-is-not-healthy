@@ -452,6 +452,10 @@ name is free text.
 | `lower hardshutdown` | 2 |
 | `lower non-recoverable` | 1 |
 
+```{=typst}
+#pagebreak(weak: true)
+```
+
 **Table A.3. Declared as sensors are, and not sensors, at `495e0a4`:** the ten largest of 83 types.
 
 | `Type` | Declarations |
@@ -501,8 +505,12 @@ answers, the runner, the scorer -- which holds a run to the answers and fails on
 results, and the story, which names every source. With only the released engine installed, from `appendix-b/`:
 
     python3 -m pip install 'arbiter-engine==0.2.39'
-    cd faa && python3 run_walks.py --out out && python3 score.py --results out/results.json
-    cd ../nursing_homes && python3 run_walks.py --out out && python3 score.py out/results.json
+    cd faa
+    python3 run_walks.py --out out
+    python3 score.py --results out/results.json
+    cd ../nursing_homes
+    python3 run_walks.py --out out
+    python3 score.py out/results.json
 
 On 0.2.39 from PyPI both write their reference results again, apart from each case's generated identifiers and the
 time, with no departure.
