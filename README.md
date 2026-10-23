@@ -1,6 +1,7 @@
 # Absent is not healthy
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23585862.svg)](https://doi.org/10.5281/zenodo.23585862)
+[![All versions](https://zenodo.org/badge/DOI/10.5281/zenodo.23585861.svg)](https://doi.org/10.5281/zenodo.23585861)
 
 *Checking what a BMC declares against what it reports.* A technical report from The Arbiter Project.
 

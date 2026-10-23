@@ -9,6 +9,10 @@ version: "1.0"
 date-released: "2026-10-23"
 license: CC-BY-4.0
 doi: "10.5281/zenodo.23585862"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23585861"
+    description: The concept DOI, which resolves to the latest version
 repository-code: "https://github.com/james-sheen/absent-is-not-healthy"
 preferred-citation:
   type: report
