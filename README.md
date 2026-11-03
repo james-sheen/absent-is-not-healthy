@@ -7,8 +7,8 @@
 
 A baseboard management controller reads a server's sensors and reports them to whatever watches the machine, and
 a sensor that does not report looks exactly like one that sees nothing wrong. The report checks what a board's
-configuration declares against what the running system reports -- on the public OpenBMC configuration corpus and
-on upstream firmware -- and follows the result from a factory's acceptance certificate to the buyer's fleet.
+configuration declares against what the running system reports – on the public OpenBMC configuration corpus and
+on upstream firmware – and follows the result from a factory's acceptance certificate to the buyer's fleet.
 
 **Versions.** Each version is a tagged release here, with its PDF, archived on Zenodo with a DOI of its own.
 
@@ -18,6 +18,7 @@ on upstream firmware -- and follows the result from a factory's acceptance certi
 |---|---|
 | `absent-is-not-healthy.md` | the report's source |
 | `brief.md` | the two-page brief |
+| `posts/` | the posts drawn from the report, each added on the day it is published |
 | `claims.md` | every load-bearing figure in the report, with its source and the check that holds it |
 | `measure_corpus.py`, `check_consumer.py`, `check_layers.py`, `check_appendix.py`, `check_firmware.py`, `check_chain.py`, `check_walk.py`, `check_text.py` | the checks behind the figures, run again at the versions and revisions the report names |
 | `appendix-b/` | the two case studies behind section 6, runnable on the released engine |
@@ -33,8 +34,8 @@ so nothing is installed system-wide. It needs Python 3.10 or later and `virtuale
 ## Checking the figures
 
 Each row of `claims.md` names the source of one figure and the check that holds it: a command to run, or a file
-and the text it must hold. The commands fetch each upstream source at the revision the report names --
-`entity-manager`, `dbus-sensors`, `bmcweb`, QEMU -- and install each tool at the version it names from PyPI, into an
+and the text it must hold. The commands fetch each upstream source at the revision the report names –
+`entity-manager`, `dbus-sensors`, `bmcweb`, QEMU – and install each tool at the version it names from PyPI, into an
 environment of its own, because a figure is a claim about one version of the thing it describes.
 
 ## Running the case studies
@@ -44,7 +45,7 @@ answers written before it ran and fails on any departure.
 
 ## Licences
 
-The report's text is CC BY 4.0 (`LICENSE`). The code -- the build, the measurements and appendix B's scripts -- is
+The report's text is CC BY 4.0 (`LICENSE`). The code – the build, the measurements and appendix B's scripts – is
 Apache-2.0 (`LICENSE-CODE`, and `appendix-b/LICENSE`). The data in appendix B are United States government works.
 
 ## How to cite
